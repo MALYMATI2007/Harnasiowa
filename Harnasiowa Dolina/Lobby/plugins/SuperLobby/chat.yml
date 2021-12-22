@@ -1,7 +1,0 @@
-
-chat-format:
-  enable: true
-  format:
-    default: '%luckperms_prefix% &r{PLAYER_NAME} &e&l> &7{MESSAGE}'
-    vip: '%luckperms_prefix% &r{PLAYER_NAME} &e&l> &5{MESSAGE}'
-    admin: '%luckperms_prefix% &r{PLAYER_NAME}% &e&l> &c{MESSAGE}'
