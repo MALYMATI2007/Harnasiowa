@@ -1,0 +1,73 @@
+{
+  "apiReference" : {
+    "custom_amount" : 1,
+    "item" : {
+      "==" : "org.bukkit.inventory.ItemStack",
+      "v" : 2730,
+      "type" : "POTION",
+      "meta" : {
+        "==" : "ItemMeta",
+        "meta-type" : "POTION",
+        "display-name" : "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Browar\"}],\"text\":\"\"}",
+        "potion-type" : "minecraft:water",
+        "custom-effects" : [ {
+          "==" : "PotionEffect",
+          "effect" : 1,
+          "duration" : 600,
+          "amplifier" : 0,
+          "ambient" : false,
+          "has-particles" : true,
+          "has-icon" : true
+        }, {
+          "==" : "PotionEffect",
+          "effect" : 9,
+          "duration" : 200,
+          "amplifier" : 0,
+          "ambient" : false,
+          "has-particles" : true,
+          "has-icon" : true
+        } ]
+      }
+    }
+  },
+  "customDataMap" : {
+    "customcrafting:recipe_book" : {
+      "enabled" : false
+    },
+    "customcrafting:cauldron" : {
+      "enabled" : false
+    },
+    "customcrafting:elite_crafting_table" : {
+      "enabled" : false,
+      "gridSize" : 3,
+      "advancedRecipes" : false,
+      "allowHoppers" : false,
+      "keepItems" : false
+    }
+  },
+  "equipmentSlots" : [ ],
+  "consumed" : true,
+  "blockVanillaEquip" : false,
+  "blockPlacement" : false,
+  "blockVanillaRecipes" : false,
+  "rarityPercentage" : 1.0,
+  "permission" : "",
+  "nbtChecks" : {
+    "checks" : [ {
+      "key" : "wolfyutilities:customitem_tag"
+    } ]
+  },
+  "replacement" : null,
+  "fuelSettings" : {
+    "allowedBlocks" : [ ],
+    "burnTime" : 20
+  },
+  "durabilityCost" : 0,
+  "particleContent" : {
+    "location" : null,
+    "block" : null,
+    "entity" : null,
+    "player" : null
+  },
+  "checkOldMetaSettings" : true
+}

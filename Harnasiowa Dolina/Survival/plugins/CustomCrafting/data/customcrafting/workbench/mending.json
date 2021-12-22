@@ -1,0 +1,165 @@
+{
+  "group" : "",
+  "hidden" : false,
+  "priority" : "NORMAL",
+  "exactItemMeta" : true,
+  "conditions" : [ {
+    "id" : "world_name",
+    "option" : "IGNORE",
+    "names" : [ ]
+  }, {
+    "id" : "craft_limit",
+    "option" : "IGNORE",
+    "limit" : 0
+  }, {
+    "id" : "world_biome",
+    "option" : "IGNORE",
+    "biomes" : [ ]
+  }, {
+    "id" : "world_time",
+    "option" : "IGNORE",
+    "time" : 0
+  }, {
+    "id" : "weather",
+    "option" : "IGNORE",
+    "weather" : "NONE"
+  }, {
+    "id" : "permission",
+    "option" : "IGNORE",
+    "permission" : "customcrafting.craft.%namespace%.%recipe_name%"
+  }, {
+    "id" : "elite_crafting_table",
+    "option" : "IGNORE",
+    "elite_crafting_tables" : [ ]
+  }, {
+    "id" : "advanced_workbench",
+    "option" : "IGNORE"
+  }, {
+    "id" : "player_experience",
+    "option" : "IGNORE",
+    "experience" : 0
+  }, {
+    "id" : "craft_delay",
+    "option" : "IGNORE",
+    "delay" : 0
+  } ],
+  "shapeless" : true,
+  "result" : {
+    "items" : [ {
+      "custom_amount" : 1,
+      "item" : {
+        "==" : "org.bukkit.inventory.ItemStack",
+        "v" : 2730,
+        "type" : "ENCHANTED_BOOK",
+        "meta" : {
+          "==" : "ItemMeta",
+          "meta-type" : "ENCHANTED",
+          "stored-enchants" : {
+            "MENDING" : 1
+          }
+        }
+      }
+    } ],
+    "tags" : [ ],
+    "extensions" : [ ]
+  },
+  "ingredients" : {
+    "A" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "BOOK"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "B" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "ENDER_PEARL"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "C" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "HONEYCOMB"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "D" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "DIAMOND"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "E" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "LAPIS_LAZULI"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "F" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "AMETHYST_SHARD"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "G" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "NETHER_BRICK"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "H" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "STONE_PICKAXE"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    }
+  },
+  "vanillaRecipe" : false
+}

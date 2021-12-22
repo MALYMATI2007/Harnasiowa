@@ -1,0 +1,67 @@
+
+settings-enable: true
+settings-update-title: 3
+settings-world:
+- world
+- lobby
+- hub
+settings-title:
+- '&7< &6&lDolina Harnasia &7>'
+- '&7< &6&lDolina Harnasia &7>'
+- '&7< &6&lDolina Harnasia &7>'
+- '&7> &6&lDolina Harnasia &7<'
+- '&7> &6&lina Harna &7<'
+- '&7> &6&l Ha &7<'
+- '&7> &7<'
+- '&7< &6&lrL &7>'
+- '&7< &6&lHa &7>'
+- '&7< &6&lina Harna &7>'
+- '&7< &e&lD&6&lolina Harnasia &7>'
+- '&7< &e&lD&e&lo&6&llina Harnasia &7>'
+- '&7< &6&lDo&e&ll&6&lina Harnasia &7>'
+- '&7< &6&lDol&e&li&6&lna Harnasia &7>'
+- '&7< &6&lDoli&e&ln&6&la Harnasia &7>'
+- '&7< &6&lDolin&e&la&6&l Harnasia &7>'
+- '&7< &6&lDolina &e&lH&6&larnasia &7>'
+- '&7< &6&lDolina H&e&la&6&lrnasia &7>'
+- '&7< &6&lDolina Ha&e&lr&6&lnasia &7>'
+- '&7< &6&lDolina Har&e&ln&6&lasia &7>'
+- '&7< &6&lDolina Harn&e&la&6&lsia &7>'
+- '&7< &6&lDolina Harna&e&ls&6&lia &7>'
+- '&7< &6&lDolina Harnas&e&li&6&la &7>'
+- '&7< &6&lDolina Harnasi&e&la&6&l &7>'
+- '&7< &6&lDolina Harnasia &7>'
+board:
+  line1:
+    content:
+    - ' '
+    update: 1000
+  line2:
+    content:
+    - '&a&lName: &7<player>'
+    update: 120
+  line3:
+    content:
+    - '                    '
+    update: 1000
+  line4:
+    content:
+    - '&a&lRank: &7%luckperms_prefix% '
+    update: 1000
+  line5:
+    content:
+    - ' '
+    update: 1000
+  line6:
+    content:
+    - '&a&lCoins: &70 '
+    update: 1000
+  line7:
+    content:
+    - ' '
+    update: 1000
+  line8:
+    content:
+    - '&7Buy you rank in y&7_'
+    - '&7uy you rank in yo&8_'
+    update: 10

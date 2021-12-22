@@ -1,0 +1,644 @@
+[20:10:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:10:44] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[20:10:54] [Worker-Main-4/INFO]: Loaded 7 recipes
+[20:10:58] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[20:10:58] [Server thread/INFO]: Loading properties
+[20:11:01] [Server thread/INFO]: This server is running CraftBukkit version 3284-Spigot-3892929-0ebef35 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[20:11:01] [Server thread/INFO]: Debug logging is disabled
+[20:11:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:11:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:11:01] [Server thread/INFO]: Default game type: ADVENTURE
+[20:11:01] [Server thread/INFO]: Generating keypair
+[20:11:02] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25578
+[20:11:03] [Server thread/INFO]: Using default channel type
+[20:11:22] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:11:31] [Server thread/WARN]: Legacy plugin BungeeTabListPlus v3.4.4 does not specify an api-version.
+[20:11:31] [Server thread/ERROR]: Could not load 'plugins\BungeeTabListPlus-3.4.4.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.loadPlugins(CraftServer.java:409) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:233) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1010) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:305) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:193) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:193) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	... 7 more
+[20:11:43] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[20:11:49] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.6
+[20:11:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.7+9f3e795
+[20:11:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@393cdf2e]
+[20:11:55] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
+[20:11:55] [Server thread/INFO]: [WolfyUtilities] Loading WolfyUtilities v1.8.0.0
+[20:11:55] [Server thread/INFO]: [WolfyUtilities] Register json serializer/deserializer
+[20:11:55] [Server thread/INFO]: [WolfyUtilities] Register CustomItem meta checks
+[20:11:55] [Server thread/INFO]: [CustomCrafting] Loading CustomCrafting v1.7.1.3
+[20:11:55] [Server thread/INFO]: [CustomCrafting] WolfyUtilities API: WolfyUtilities v1.8.0.0
+[20:11:55] [Server thread/INFO]: [CustomCrafting] Environment: PROD
+[20:11:55] [Server thread/INFO]: [CustomCrafting] Registering custom data
+[20:11:55] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[20:11:55] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[20:11:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[20:11:57] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[20:11:57] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.77[m
+[20:11:57] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[20:11:57] [Server thread/INFO]: [m
+[20:11:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:11:58] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:12:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:12:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:12:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 10518ms)
+[20:12:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.7+9f3e795
+[20:12:08] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:12:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:12:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_17_R1_2.PaperweightAdapter as the Bukkit adapter
+[20:12:14] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:12:14] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[20:12:14] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[20:12:14] [Server thread/INFO]: [WorldEdit]   
+[20:12:14] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[20:12:14] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[20:12:14] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[20:12:14] [Server thread/INFO]: [WorldEdit]   
+[20:12:14] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[20:12:14] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[20:12:14] [Server thread/INFO]: [WorldEdit]   
+[20:12:14] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[20:12:14] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[20:12:14] [Server thread/INFO]: [WorldEdit]   
+[20:12:14] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[20:12:14] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:12:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:12:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:12:14] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:12:14] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:12:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:12:14] [Server thread/INFO]: Preparing level "world"
+[20:12:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:12:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:12:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:12:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:12:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:12:16] [Server thread/INFO]: View Distance: 10
+[20:12:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:12:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:12:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:12:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:12:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:12:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:12:16] [Server thread/INFO]: Max TNT Explosions: 100
+[20:12:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:12:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:12:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:12:16] [Server thread/INFO]: Mob Spawn Range: 6
+[20:12:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:12:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:12:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:12:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:12:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:12:19] [Server thread/INFO]: View Distance: 10
+[20:12:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:12:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:12:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:12:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:12:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:12:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:12:19] [Server thread/INFO]: Max TNT Explosions: 100
+[20:12:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:12:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:12:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:12:19] [Server thread/INFO]: Mob Spawn Range: 6
+[20:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:23] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:24] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:26] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:26] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:27] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:27] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:28] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:29] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:30] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:31] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:31] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:32] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:32] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:34] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:35] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:36] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:36] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:12:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:12:38] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:38] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:12:39] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[20:12:39] [Worker-Main-7/INFO]: Preparing spawn area: 1%
+[20:12:40] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[20:12:40] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[20:12:41] [Worker-Main-7/INFO]: Preparing spawn area: 3%
+[20:12:41] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[20:12:42] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[20:12:42] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[20:12:43] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[20:12:43] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[20:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[20:12:44] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[20:12:45] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[20:12:45] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[20:12:46] [Worker-Main-6/INFO]: Preparing spawn area: 5%
+[20:12:46] [Worker-Main-7/INFO]: Preparing spawn area: 5%
+[20:12:47] [Worker-Main-5/INFO]: Preparing spawn area: 6%
+[20:12:47] [Worker-Main-5/INFO]: Preparing spawn area: 6%
+[20:12:48] [Worker-Main-5/INFO]: Preparing spawn area: 7%
+[20:12:48] [Worker-Main-6/INFO]: Preparing spawn area: 8%
+[20:12:49] [Worker-Main-6/INFO]: Preparing spawn area: 10%
+[20:12:49] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:50] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:12:50] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:12:51] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[20:12:51] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[20:12:52] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[20:12:52] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:12:53] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:54] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:54] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:12:54] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:55] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:55] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[20:12:56] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:56] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:12:57] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:57] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:12:58] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:12:58] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[20:12:59] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:12:59] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:13:00] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[20:13:00] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:13:01] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[20:13:01] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[20:13:02] [Worker-Main-7/INFO]: Preparing spawn area: 12%
+[20:13:02] [Worker-Main-7/INFO]: Preparing spawn area: 14%
+[20:13:03] [Worker-Main-7/INFO]: Preparing spawn area: 16%
+[20:13:03] [Worker-Main-6/INFO]: Preparing spawn area: 16%
+[20:13:04] [Worker-Main-7/INFO]: Preparing spawn area: 20%
+[20:13:04] [Worker-Main-6/INFO]: Preparing spawn area: 23%
+[20:13:05] [Worker-Main-6/INFO]: Preparing spawn area: 25%
+[20:13:05] [Worker-Main-5/INFO]: Preparing spawn area: 26%
+[20:13:06] [Worker-Main-7/INFO]: Preparing spawn area: 27%
+[20:13:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[20:13:07] [Worker-Main-7/INFO]: Preparing spawn area: 27%
+[20:13:07] [Worker-Main-5/INFO]: Preparing spawn area: 29%
+[20:13:08] [Worker-Main-6/INFO]: Preparing spawn area: 32%
+[20:13:08] [Worker-Main-6/INFO]: Preparing spawn area: 37%
+[20:13:09] [Worker-Main-6/INFO]: Preparing spawn area: 38%
+[20:13:09] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[20:13:10] [Worker-Main-6/INFO]: Preparing spawn area: 41%
+[20:13:10] [Worker-Main-5/INFO]: Preparing spawn area: 42%
+[20:13:11] [Worker-Main-5/INFO]: Preparing spawn area: 44%
+[20:13:11] [Worker-Main-6/INFO]: Preparing spawn area: 45%
+[20:13:12] [Worker-Main-5/INFO]: Preparing spawn area: 46%
+[20:13:12] [Worker-Main-5/INFO]: Preparing spawn area: 48%
+[20:13:13] [Worker-Main-6/INFO]: Preparing spawn area: 49%
+[20:13:13] [Worker-Main-7/INFO]: Preparing spawn area: 50%
+[20:13:14] [Worker-Main-7/INFO]: Preparing spawn area: 53%
+[20:13:14] [Worker-Main-6/INFO]: Preparing spawn area: 53%
+[20:13:15] [Worker-Main-7/INFO]: Preparing spawn area: 56%
+[20:13:15] [Worker-Main-7/INFO]: Preparing spawn area: 59%
+[20:13:16] [Worker-Main-7/INFO]: Preparing spawn area: 61%
+[20:13:16] [Worker-Main-7/INFO]: Preparing spawn area: 65%
+[20:13:17] [Worker-Main-6/INFO]: Preparing spawn area: 67%
+[20:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[20:13:18] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[20:13:18] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[20:13:19] [Worker-Main-6/INFO]: Preparing spawn area: 72%
+[20:13:19] [Worker-Main-5/INFO]: Preparing spawn area: 75%
+[20:13:20] [Worker-Main-7/INFO]: Preparing spawn area: 82%
+[20:13:20] [Worker-Main-7/INFO]: Preparing spawn area: 86%
+[20:13:21] [Worker-Main-7/INFO]: Preparing spawn area: 93%
+[20:13:21] [Server thread/INFO]: Time elapsed: 61838 ms
+[20:13:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:13:21] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:23] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:26] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:26] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:27] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:13:28] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:13:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:31] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:31] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:13:31] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:32] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:32] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:34] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:34] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:13:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:13:35] [Worker-Main-6/INFO]: Preparing spawn area: 12%
+[20:13:36] [Worker-Main-6/INFO]: Preparing spawn area: 56%
+[20:13:37] [Worker-Main-6/INFO]: Preparing spawn area: 56%
+[20:13:37] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[20:13:37] [Server thread/INFO]: Time elapsed: 16100 ms
+[20:13:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.6
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mUsing SpigotSkinRefresher[m
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_17_R1[0;32;1m, using [0;33;1mSpigotSkinRefresher[0;32;1m.[m
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------/Warning\-------------------------[m
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mThis plugin is running in Bungee mode![m
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mYou have to do all configuration at config file[m
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [minside your Bungeecord server.[m
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m(Bungeecord-Server/plugins/SkinsRestorer/).[m
+[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------\Warning/-------------------------[m
+[20:13:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
+[20:13:51] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:13:51] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:13:51] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:13:51] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:13:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:13:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:13:52] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:13:53] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v1.8.0.0
+[20:13:53] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.17.1
+[20:13:53] [Server thread/INFO]: [WolfyUtilities] WolfyUtilities version: 1.8.0.0
+[20:13:53] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[20:13:53] [Server thread/INFO]: [WolfyUtilities] Register API references
+[20:13:54] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
+[20:13:55] [Server thread/INFO]: [WolfyUtilities] Loading Player Data
+[20:13:55] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[20:13:55] [Server thread/INFO]: [WolfyUtilities] Initiating Particles
+[20:13:55] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v1.7.1.3
+[20:13:55] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[20:13:55] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[20:13:55] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[20:13:55] [Server thread/INFO]: [CustomCrafting]     v1.7.1.3 Free
+[20:13:55] [Server thread/INFO]: [CustomCrafting]  
+[20:13:59] [Server thread/INFO]: [CustomCrafting] 
+[20:13:59] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Nat R               | Thomas Texier
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Junye Zhou          | Apprehentice
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Alex                | gizmonster
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Alexander           | The Hound Brothers
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Xwdit               | Pixelcraftian
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Leo                 | DTNTW
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Mr_Mint_            | Matchman
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Hugo Hronec         | Marcin Pootski
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Sundial Shark       | Venterok
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | XiaoMoMi            | yossy_zip
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Jiøí Hudský         | Mithran
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Qsycho              | GD4aming 4
+[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Advanced-Kind       | Filip Oreško
+[20:13:59] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[20:13:59] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v5.0.0 translated by WolfyScript
+[20:13:59] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v5.0.0 translated by WolfyScript
+[20:14:03] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[20:14:03] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[20:14:06] [Server thread/INFO]: [CustomCrafting] Loading Cauldrons
+[20:14:10] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[20:14:10] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[20:14:10] [Server thread/INFO]: [CustomCrafting] > axes
+[20:14:10] [Server thread/INFO]: [CustomCrafting] > customcrafting
+[20:14:10] [Server thread/INFO]: [CustomCrafting] > pickaxes
+[20:14:11] [Server thread/INFO]: [CustomCrafting] > shovels
+[20:14:14] [Server thread/INFO]: [CustomCrafting] 
+[20:14:14] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[20:14:14] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[20:14:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:14:14] [Server thread/INFO]: Done (120.946s)! For help, type "help"
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[GitHubUpdate] Downloading update...[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   SkinsRestorer  |[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |------------------|[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   [0;33;1mBungee Mode[0;32;1m    |[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;31;1m14.1.6[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    New version: [0;31;1m14.1.10[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m    A new version is available! Downloading it now...[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m    Update downloaded successfully, it will be applied on the next restart.[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[GitHubUpdate] Update saved as plugins\update\SkinsRestorer.jar[m
+[20:19:45] [User Authenticator #1/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
+[20:19:48] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:60683] logged in with entity id 13 at ([world]-16.01088072136515, 65.0, -1.699999988079071)
+[20:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5038ms or 100 ticks behind
+[20:21:14] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:21:37] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:24:16] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:28:35] [Server thread/INFO]: PoprostuEWA has made the advancement [Cover Me with Diamonds]
+[20:28:39] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:30:17] [Server thread/WARN]: [WolfyUtilities] Task #338 for WolfyUtilities v1.8.0.0 generated an exception
+java.lang.IllegalArgumentException: character to be escaped is missing
+	at java.util.regex.Matcher.appendExpandedReplacement(Matcher.java:1019) ~[?:?]
+	at java.util.regex.Matcher.appendReplacement(Matcher.java:997) ~[?:?]
+	at java.util.regex.Matcher.replaceAll(Matcher.java:1181) ~[?:?]
+	at java.lang.String.replaceAll(String.java:2142) ~[?:?]
+	at me.wolfyscript.utilities.api.chat.Chat.sendMessage(Chat.java:84) ~[?:?]
+	at me.wolfyscript.utilities.api.chat.Chat.sendKey(Chat.java:112) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.GuiWindow.sendMessage(GuiWindow.java:356) ~[?:?]
+	at me.wolfyscript.customcrafting.gui.item_creator.tabs.TabDamage.lambda$register$0(TabDamage.java:42) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.GuiHandler.onChat(GuiHandler.java:479) ~[?:?]
+	at me.wolfyscript.utilities.main.commands.InputCommand.lambda$onCommand$1(InputCommand.java:45) ~[?:?]
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1269) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:438) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1217) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1050) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:305) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[20:30:58] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:38:20] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:38:43] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:40:24] [Server thread/INFO]: PoprostuEWA issued server command: /cc
+[20:42:12] [Server thread/INFO]: PoprostuEWA issued server command: /cc reload
+[20:42:12] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v5.0.0 translated by WolfyScript
+[20:42:12] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v5.0.0 translated by WolfyScript
+[20:42:12] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[20:42:12] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[20:42:12] [Server thread/INFO]: [CustomCrafting] > axes
+[20:42:13] [Server thread/INFO]: [CustomCrafting] > customcrafting
+[20:42:13] [Server thread/INFO]: [CustomCrafting] > other
+[20:42:13] [Server thread/INFO]: [CustomCrafting] > pickaxes
+[20:42:13] [Server thread/INFO]: [CustomCrafting] > potions
+[20:42:13] [Server thread/INFO]: [CustomCrafting] > shovels
+[20:42:15] [Server thread/INFO]: [CustomCrafting] 
+[20:42:15] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[20:44:19] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
+[20:44:33] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
+[20:44:33] [Server thread/WARN]: PoprostuEWA moved too quickly! -188.5144303827524,12.697008762440205,52.90849069547463
+[20:44:49] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
+[20:44:49] [Server thread/WARN]: PoprostuEWA moved too quickly! -89.24635486322224,0.0,-18.055768740984192
+[20:44:51] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
+[20:44:51] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
+[20:44:52] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
+[20:44:53] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
+[20:48:10] [Server thread/INFO]: Made PoprostuEWA no longer a server operator
+[20:54:38] [Server thread/INFO]: PoprostuEWA has made the advancement [Take Aim]
+[20:55:03] [User Authenticator #2/WARN]: [LuckPerms] Processing login for MALYMATI2007 took 1409ms.
+[20:55:03] [User Authenticator #2/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[20:55:29] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:62217] logged in with entity id 3489 at ([world]-223.5, 63.0, 241.5)
+[20:55:29] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
+[20:55:30] [Server thread/INFO]: MALYMATI2007 left the game
+[20:55:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26832ms or 536 ticks behind
+[20:55:30] [Server thread/WARN]: handleDisconnection() called twice
+[20:56:35] [User Authenticator #3/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[20:56:36] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:62284] logged in with entity id 3568 at ([world]-223.5, 63.0, 241.5)
+[20:57:27] [Server thread/INFO]: Made MALYMATI2007 a server operator
+[20:57:32] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative
+[20:57:33] [Server thread/INFO]: [MALYMATI2007: Set own game mode to Creative Mode]
+[20:57:35] [Server thread/WARN]: MALYMATI2007 moved too quickly! 3.524155010048304,9.061308780938333,3.319264052169956
+[20:57:42] [Server thread/INFO]: MALYMATI2007 issued server command: /kill PoprostuEWA
+[20:57:42] [Server thread/INFO]: PoprostuEWA fell out of the world
+[20:57:43] [Server thread/INFO]: [MALYMATI2007: Killed PoprostuEWA]
+[20:57:43] [Server thread/WARN]: MALYMATI2007 moved too quickly! -5.895376729334771,0.0,8.236841677311048
+[20:57:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12052ms or 241 ticks behind
+[20:57:54] [Server thread/WARN]: MALYMATI2007 moved too quickly! 21.457694415017016,9.926183552159898,-8.215148501477984
+[20:58:34] [Server thread/INFO]: PoprostuEWA has completed the challenge [Cover Me in Debris]
+[20:58:35] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[20:58:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5668ms or 113 ticks behind
+[21:00:09] [Server thread/WARN]: PoprostuEWA moved too quickly! 11.017772995304,-2.3245612398704907,7.479433489505141
+[21:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5120ms or 102 ticks behind
+[21:00:17] [Server thread/WARN]: PoprostuEWA moved too quickly! 10.547985693719738,9.187501324600731,18.46343594234378
+[21:01:57] [Server thread/WARN]: PoprostuEWA moved too quickly! -21.403354003392863,0.0,-9.577056848901407
+[21:02:07] [Server thread/INFO]: PoprostuEWA has reached the goal [Sky's the Limit]
+[21:03:46] [Server thread/INFO]: MALYMATI2007 has reached the goal [Sky's the Limit]
+[21:03:52] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:04:59] [Server thread/WARN]: PoprostuEWA moved too quickly! -12.532917887400856,0.0,-0.22773718716780422
+[21:05:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6235ms or 124 ticks behind
+[21:05:15] [Server thread/WARN]: PoprostuEWA moved too quickly! -1.7817798258713538,8.062588474544995,12.511404115252276
+[21:09:17] [Server thread/INFO]: PoprostuEWA lost connection: Disconnected
+[21:09:17] [Server thread/INFO]: PoprostuEWA left the game
+[21:12:00] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:12:23] [Server thread/INFO]: MALYMATI2007 has made the advancement [Cover Me with Diamonds]
+[21:12:26] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:15:15] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
+[21:16:26] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:23:27] [User Authenticator #4/WARN]: [LuckPerms] Processing login for PoprostuEWA took 1675ms.
+[21:23:27] [User Authenticator #4/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
+[21:23:32] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:62773] logged in with entity id 7766 at ([world]35.97689232214139, 91.10398121350168, 723.0713536663442)
+[21:23:51] [Server thread/INFO]: PoprostuEWA lost connection: Disconnected
+[21:23:51] [Server thread/INFO]: PoprostuEWA left the game
+[21:23:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23488ms or 469 ticks behind
+[21:23:51] [User Authenticator #5/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
+[21:23:51] [Server thread/WARN]: handleDisconnection() called twice
+[21:23:52] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:62777] logged in with entity id 7767 at ([world]35.97689232214139, 91.10398121350168, 723.0713536663442)
+[21:24:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20271ms or 405 ticks behind
+[21:24:45] [Server thread/WARN]: PoprostuEWA moved too quickly! -8.0366244994439,0.5568313181264983,-13.453210950848131
+[21:26:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5372ms or 107 ticks behind
+[21:26:21] [Server thread/WARN]: PoprostuEWA moved too quickly! -28.354067556973092,4.670601625587139,-23.925252796819677
+[21:27:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20798ms or 415 ticks behind
+[21:27:24] [Server thread/WARN]: PoprostuEWA moved too quickly! 7.560052606376587,4.313234835430947,5.10860784116818
+[21:27:30] [Server thread/WARN]: PoprostuEWA moved too quickly! 8.565997642443563,0.9262913360353338,6.351982857658186
+[21:27:58] [Server thread/WARN]: PoprostuEWA moved too quickly! -15.619719289467284,0.0,-1.1259002032934404
+[21:37:11] [Server thread/WARN]: PoprostuEWA moved too quickly! 5.11185741308654,1.6813915239116994,9.037993109217723
+[21:37:45] [Server thread/WARN]: PoprostuEWA moved too quickly! -10.345485096667858,0.0,7.4971869538943565
+[21:38:32] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:38:40] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:38:57] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
+[21:38:57] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
+[21:39:08] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:39:27] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode survival
+[21:39:27] [Server thread/INFO]: [MALYMATI2007: Set own game mode to Survival Mode]
+[21:39:54] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative
+[21:39:54] [Server thread/INFO]: [MALYMATI2007: Set own game mode to Creative Mode]
+[21:42:26] [Server thread/INFO]: MALYMATI2007 issued server command: /tp PoprostuEWA ~ 1000 ~
+[21:42:26] [Server thread/INFO]: [MALYMATI2007: Teleported PoprostuEWA to -304.408148, 1000.000000, 207.857779]
+[21:42:28] [Server thread/WARN]: PoprostuEWA moved too quickly! 0.0,-10.806526110009258,0.0
+[21:43:06] [Server thread/INFO]: MALYMATI2007 issued server command: /tp PoprostuEWA ~ 100 ~
+[21:43:06] [Server thread/INFO]: [MALYMATI2007: Teleported PoprostuEWA to -304.408148, 100.000000, 207.857779]
+[21:43:06] [Server thread/WARN]: PoprostuEWA moved too quickly! -11.875997247407156,-97.99269079282709,7.112873219993105
+[21:44:02] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
+[21:44:02] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
+[21:46:25] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
+[21:46:28] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:48:37] [Server thread/INFO]: MALYMATI2007 issued server command: /time set day
+[21:48:37] [Server thread/INFO]: [MALYMATI2007: Set the time to 1000]
+[21:50:45] [Server thread/INFO]: MALYMATI2007 has made the advancement [Diamonds!]
+[21:52:28] [Server thread/INFO]: MALYMATI2007 has made the advancement [Ol' Betsy]
+[21:52:54] [Server thread/INFO]: MALYMATI2007 issued server command: /summon minecraft:pillager
+[21:52:54] [Server thread/INFO]: [MALYMATI2007: Summoned new Pillager]
+[21:53:18] [Server thread/INFO]: PoprostuEWA has made the advancement [Ol' Betsy]
+[21:53:27] [Server thread/INFO]: PoprostuEWA has made the advancement [Who's the Pillager Now?]
+[21:54:46] [Server thread/INFO]: MALYMATI2007 issued server command: /clear PoprostuEWA minecraft:crossbow
+[21:54:46] [Server thread/INFO]: [MALYMATI2007: Removed 1 items from player PoprostuEWA]
+[21:55:05] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[21:55:14] [Server thread/INFO]: MALYMATI2007 issued server command: /clear PoprostuEWA minecraft:crossbow
+[21:55:14] [Server thread/INFO]: [MALYMATI2007: Removed 1 items from player PoprostuEWA]
+[21:56:21] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode survival PoprostuEWA
+[21:56:21] [Server thread/INFO]: [MALYMATI2007: Set PoprostuEWA's game mode to Survival Mode]
+[21:57:11] [Server thread/INFO]: MALYMATI2007 issued server command: /summon minecraft:zombie ~ ~ ~
+[21:57:11] [Server thread/INFO]: [MALYMATI2007: Summoned new Zombie]
+[21:57:25] [Server thread/INFO]: MALYMATI2007 issued server command: /attribute 9775d386-c57d-4def-a35e-35890b5d1352 minecraft:generic.armor base get
+[21:57:29] [Server thread/INFO]: MALYMATI2007 issued server command: /attribute 9775d386-c57d-4def-a35e-35890b5d1352 minecraft:generic.armor base set 200
+[21:57:32] [Server thread/INFO]: MALYMATI2007 issued server command: /attribute 9775d386-c57d-4def-a35e-35890b5d1352 minecraft:generic.armor base set 10
+[21:57:43] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
+[21:57:43] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
+[21:58:20] [Server thread/INFO]: MALYMATI2007 issued server command: /kick PoprostuEWA
+[21:58:20] [Server thread/INFO]: PoprostuEWA lost connection: Kicked by an operator
+[21:58:20] [Server thread/INFO]: PoprostuEWA left the game
+[21:58:20] [Server thread/INFO]: [MALYMATI2007: Kicked PoprostuEWA: Kicked by an operator]
+[21:58:31] [User Authenticator #6/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
+[21:58:31] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:65384] logged in with entity id 14507 at ([world]-270.7233002534429, 95.0, 250.11302033699656)
+[21:58:53] [Server thread/INFO]: MALYMATI2007 issued server command: /time set day
+[21:58:53] [Server thread/INFO]: [MALYMATI2007: Set the time to 1000]
+[21:59:31] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative
+[21:59:34] [Server thread/INFO]: MALYMATI2007 issued server command: /say debil
+[21:59:35] [Server thread/INFO]: [MALYMATI2007] debil
+[21:59:58] [Async Chat Thread - #10/INFO]: <PoprostuEWA> ygfytfuykkghuilk6gytkbi5gtk7u6jvyoi,uktv5guijkbu y9t876yh[m
+[22:00:21] [Server thread/INFO]: PoprostuEWA has reached the goal [Postmortal]
+[22:00:54] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative PoprostuEWA
+[22:00:54] [Server thread/INFO]: [MALYMATI2007: Set PoprostuEWA's game mode to Creative Mode]
+[22:02:30] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:02:47] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:06:41] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:06:55] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:07:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5752ms or 115 ticks behind
+[22:09:16] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:09:59] [Server thread/INFO]: MALYMATI2007 issued server command: /wua d77a1778-9bec-4e4a-ab71-6e792e7fa20a
+[22:10:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6293ms or 125 ticks behind
+[22:10:33] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:12:52] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:13:23] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:14:20] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
+[22:14:20] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
+[22:14:24] [Server thread/INFO]: MALYMATI2007 issued server command: /time set day
+[22:14:24] [Server thread/INFO]: [MALYMATI2007: Set the time to 1000]
+[22:15:02] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:16:37] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
+[22:18:11] [Server thread/INFO]: MALYMATI2007 issued server command: /clear PoprostuEWA potion
+[22:18:11] [Server thread/INFO]: [MALYMATI2007: Removed 1 items from player PoprostuEWA]
+[22:19:54] [Server thread/INFO]: PoprostuEWA lost connection: Disconnected
+[22:19:54] [Server thread/INFO]: PoprostuEWA left the game
+[22:21:14] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:21:28] [Async Chat Thread - #13/INFO]: <MALYMATI2007> &a&la[m
+[22:21:32] [Server thread/INFO]: MALYMATI2007 issued server command: /t
+[22:21:34] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:21:51] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:22:30] [Server thread/INFO]: MALYMATI2007 issued server command: /cc give MALYMATI2007 shovels:emerald
+[22:22:44] [Async Chat Thread - #13/INFO]: <MALYMATI2007> unbreakable 3[m
+[22:22:47] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:23:01] [Async Chat Thread - #13/INFO]: <MALYMATI2007> unbreaking 3[m
+[22:23:03] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:23:56] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:24:43] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:25:25] [Server thread/INFO]: MALYMATI2007 has made the advancement [Acquire Hardware]
+[22:25:27] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:27:46] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:29:10] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[22:33:49] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
+[22:33:49] [Server thread/INFO]: MALYMATI2007 left the game
+[22:35:46] [Server thread/INFO]: Stopping the server
+[22:35:46] [Server thread/INFO]: Stopping server
+[22:35:46] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v1.7.1.3
+[22:35:48] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
+[22:35:48] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v1.8.0.0
+[22:35:49] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
+[22:35:49] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
+[22:35:49] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[22:35:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.7+9f3e795
+[22:35:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:35:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.6
+[22:35:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[22:35:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:35:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:35:55] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:35:55] [Server thread/INFO]: Saving players
+[22:35:55] [Server thread/INFO]: Saving worlds
+[22:35:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:36:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

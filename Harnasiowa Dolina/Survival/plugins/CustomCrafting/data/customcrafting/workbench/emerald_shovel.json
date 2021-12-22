@@ -1,0 +1,113 @@
+{
+  "group" : "",
+  "hidden" : false,
+  "priority" : "NORMAL",
+  "exactItemMeta" : true,
+  "conditions" : [ {
+    "id" : "world_name",
+    "option" : "IGNORE",
+    "names" : [ ]
+  }, {
+    "id" : "craft_limit",
+    "option" : "IGNORE",
+    "limit" : 0
+  }, {
+    "id" : "world_biome",
+    "option" : "IGNORE",
+    "biomes" : [ ]
+  }, {
+    "id" : "world_time",
+    "option" : "IGNORE",
+    "time" : 0
+  }, {
+    "id" : "weather",
+    "option" : "IGNORE",
+    "weather" : "NONE"
+  }, {
+    "id" : "permission",
+    "option" : "IGNORE",
+    "permission" : "customcrafting.craft.%namespace%.%recipe_name%"
+  }, {
+    "id" : "elite_crafting_table",
+    "option" : "IGNORE",
+    "elite_crafting_tables" : [ ]
+  }, {
+    "id" : "advanced_workbench",
+    "option" : "IGNORE"
+  }, {
+    "id" : "player_experience",
+    "option" : "IGNORE",
+    "experience" : 0
+  }, {
+    "id" : "craft_delay",
+    "option" : "IGNORE",
+    "delay" : 0
+  } ],
+  "shapeless" : false,
+  "result" : {
+    "items" : [ {
+      "custom_amount" : 1,
+      "item" : {
+        "==" : "org.bukkit.inventory.ItemStack",
+        "v" : 2730,
+        "type" : "DIAMOND_SHOVEL",
+        "meta" : {
+          "==" : "ItemMeta",
+          "meta-type" : "UNSPECIFIC",
+          "display-name" : "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Szmaragdowa łopata\"}],\"text\":\"\"}",
+          "enchants" : {
+            "DURABILITY" : 3,
+            "LOOT_BONUS_BLOCKS" : 2,
+            "DIG_SPEED" : 3
+          }
+        }
+      }
+    } ],
+    "tags" : [ ],
+    "extensions" : [ ]
+  },
+  "ingredients" : {
+    "B" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "EMERALD"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "E" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "STICK"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    },
+    "H" : {
+      "items" : [ {
+        "custom_amount" : 1,
+        "item" : {
+          "==" : "org.bukkit.inventory.ItemStack",
+          "v" : 2730,
+          "type" : "STICK"
+        }
+      } ],
+      "tags" : [ ],
+      "replaceWithRemains" : true
+    }
+  },
+  "vanillaRecipe" : false,
+  "mirror" : {
+    "horizontal" : true,
+    "vertical" : false,
+    "rotation" : false
+  }
+}
