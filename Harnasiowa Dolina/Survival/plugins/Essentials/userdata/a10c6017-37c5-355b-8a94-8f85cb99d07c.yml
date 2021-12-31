@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1640714983860
+  login: 1640713748852
+money: '0'
+logoutlocation:
+  world: 9e23e824-933c-4370-8df4-0a5681e3d7f0
+  world-name: world
+  x: -304.41439707245064
+  y: 65.0
+  z: 206.8637790296574
+  yaw: -97.55926513671875
+  pitch: 41.84956359863281
+last-account-name: MALYMATI2007

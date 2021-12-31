@@ -1,19 +1,19 @@
-[20:10:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:10:44] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[20:10:54] [Worker-Main-4/INFO]: Loaded 7 recipes
-[20:10:58] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[20:10:58] [Server thread/INFO]: Loading properties
-[20:11:01] [Server thread/INFO]: This server is running CraftBukkit version 3284-Spigot-3892929-0ebef35 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
-[20:11:01] [Server thread/INFO]: Debug logging is disabled
-[20:11:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:11:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:11:01] [Server thread/INFO]: Default game type: ADVENTURE
-[20:11:01] [Server thread/INFO]: Generating keypair
-[20:11:02] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25578
-[20:11:03] [Server thread/INFO]: Using default channel type
-[20:11:22] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[20:11:31] [Server thread/WARN]: Legacy plugin BungeeTabListPlus v3.4.4 does not specify an api-version.
-[20:11:31] [Server thread/ERROR]: Could not load 'plugins\BungeeTabListPlus-3.4.4.jar' in folder 'plugins'
+[17:56:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:56:39] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:56:52] [Worker-Main-4/INFO]: Loaded 7 recipes
+[17:57:40] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[17:57:40] [Server thread/INFO]: Loading properties
+[17:57:47] [Server thread/INFO]: This server is running CraftBukkit version 3284-Spigot-3892929-0ebef35 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[17:57:48] [Server thread/INFO]: Debug logging is disabled
+[17:57:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:57:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:57:49] [Server thread/INFO]: Default game type: ADVENTURE
+[17:57:49] [Server thread/INFO]: Generating keypair
+[17:57:51] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25578
+[17:57:53] [Server thread/INFO]: Using default channel type
+[17:58:26] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:58:46] [Server thread/WARN]: Legacy plugin BungeeTabListPlus v3.4.4 does not specify an api-version.
+[17:58:46] [Server thread/ERROR]: Could not load 'plugins\BungeeTabListPlus-3.4.4.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
@@ -54,591 +54,1335 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
 	... 7 more
-[20:11:43] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[20:11:49] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.6
-[20:11:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.7+9f3e795
-[20:11:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@393cdf2e]
-[20:11:55] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
-[20:11:55] [Server thread/INFO]: [WolfyUtilities] Loading WolfyUtilities v1.8.0.0
-[20:11:55] [Server thread/INFO]: [WolfyUtilities] Register json serializer/deserializer
-[20:11:55] [Server thread/INFO]: [WolfyUtilities] Register CustomItem meta checks
-[20:11:55] [Server thread/INFO]: [CustomCrafting] Loading CustomCrafting v1.7.1.3
-[20:11:55] [Server thread/INFO]: [CustomCrafting] WolfyUtilities API: WolfyUtilities v1.8.0.0
-[20:11:55] [Server thread/INFO]: [CustomCrafting] Environment: PROD
-[20:11:55] [Server thread/INFO]: [CustomCrafting] Registering custom data
-[20:11:55] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
-[20:11:55] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
-[20:11:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[20:11:57] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[20:11:57] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.77[m
-[20:11:57] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[20:11:57] [Server thread/INFO]: [m
-[20:11:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:11:58] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:12:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:12:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:12:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 10518ms)
-[20:12:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.7+9f3e795
-[20:12:08] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:12:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:12:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_17_R1_2.PaperweightAdapter as the Bukkit adapter
-[20:12:14] [Server thread/INFO]: [WorldEdit] ====================================================
-[20:12:14] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[20:12:14] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[20:12:14] [Server thread/INFO]: [WorldEdit]   
-[20:12:14] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[20:12:14] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[20:12:14] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[20:12:14] [Server thread/INFO]: [WorldEdit]   
-[20:12:14] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[20:12:14] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[20:12:14] [Server thread/INFO]: [WorldEdit]   
-[20:12:14] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[20:12:14] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[20:12:14] [Server thread/INFO]: [WorldEdit]   
-[20:12:14] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[20:12:14] [Server thread/INFO]: [WorldEdit] ====================================================
-[20:12:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:12:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:12:14] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[20:12:14] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[20:12:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:12:14] [Server thread/INFO]: Preparing level "world"
-[20:12:16] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:12:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:12:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:12:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:12:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:12:16] [Server thread/INFO]: View Distance: 10
-[20:12:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:12:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:12:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:12:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:12:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:12:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:12:16] [Server thread/INFO]: Max TNT Explosions: 100
-[20:12:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:12:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:12:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:12:16] [Server thread/INFO]: Mob Spawn Range: 6
-[20:12:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:12:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:12:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:12:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:12:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:12:19] [Server thread/INFO]: View Distance: 10
-[20:12:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:12:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:12:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:12:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:12:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:12:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:12:19] [Server thread/INFO]: Max TNT Explosions: 100
-[20:12:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:12:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:12:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:12:19] [Server thread/INFO]: Mob Spawn Range: 6
-[20:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:23] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:24] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:26] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:26] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:27] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:27] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:28] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:29] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:30] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:31] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:31] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:32] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:32] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:34] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:35] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:36] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:36] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:12:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:12:38] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:38] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:12:39] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[20:12:39] [Worker-Main-7/INFO]: Preparing spawn area: 1%
-[20:12:40] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[20:12:40] [Worker-Main-6/INFO]: Preparing spawn area: 2%
-[20:12:41] [Worker-Main-7/INFO]: Preparing spawn area: 3%
-[20:12:41] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[20:12:42] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[20:12:42] [Worker-Main-6/INFO]: Preparing spawn area: 4%
-[20:12:43] [Worker-Main-7/INFO]: Preparing spawn area: 4%
-[20:12:43] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[20:12:44] [Worker-Main-6/INFO]: Preparing spawn area: 4%
-[20:12:44] [Worker-Main-7/INFO]: Preparing spawn area: 4%
-[20:12:45] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[20:12:45] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[20:12:46] [Worker-Main-6/INFO]: Preparing spawn area: 5%
-[20:12:46] [Worker-Main-7/INFO]: Preparing spawn area: 5%
-[20:12:47] [Worker-Main-5/INFO]: Preparing spawn area: 6%
-[20:12:47] [Worker-Main-5/INFO]: Preparing spawn area: 6%
-[20:12:48] [Worker-Main-5/INFO]: Preparing spawn area: 7%
-[20:12:48] [Worker-Main-6/INFO]: Preparing spawn area: 8%
-[20:12:49] [Worker-Main-6/INFO]: Preparing spawn area: 10%
-[20:12:49] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:50] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:12:50] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:12:51] [Worker-Main-7/INFO]: Preparing spawn area: 11%
-[20:12:51] [Worker-Main-7/INFO]: Preparing spawn area: 11%
-[20:12:52] [Worker-Main-7/INFO]: Preparing spawn area: 11%
-[20:12:52] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:12:53] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:54] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:54] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:12:54] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:55] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:55] [Worker-Main-7/INFO]: Preparing spawn area: 11%
-[20:12:56] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:56] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:12:57] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:57] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:12:58] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:12:58] [Worker-Main-7/INFO]: Preparing spawn area: 11%
-[20:12:59] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:12:59] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:13:00] [Worker-Main-7/INFO]: Preparing spawn area: 11%
-[20:13:00] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:13:01] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[20:13:01] [Worker-Main-5/INFO]: Preparing spawn area: 11%
-[20:13:02] [Worker-Main-7/INFO]: Preparing spawn area: 12%
-[20:13:02] [Worker-Main-7/INFO]: Preparing spawn area: 14%
-[20:13:03] [Worker-Main-7/INFO]: Preparing spawn area: 16%
-[20:13:03] [Worker-Main-6/INFO]: Preparing spawn area: 16%
-[20:13:04] [Worker-Main-7/INFO]: Preparing spawn area: 20%
-[20:13:04] [Worker-Main-6/INFO]: Preparing spawn area: 23%
-[20:13:05] [Worker-Main-6/INFO]: Preparing spawn area: 25%
-[20:13:05] [Worker-Main-5/INFO]: Preparing spawn area: 26%
-[20:13:06] [Worker-Main-7/INFO]: Preparing spawn area: 27%
-[20:13:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
-[20:13:07] [Worker-Main-7/INFO]: Preparing spawn area: 27%
-[20:13:07] [Worker-Main-5/INFO]: Preparing spawn area: 29%
-[20:13:08] [Worker-Main-6/INFO]: Preparing spawn area: 32%
-[20:13:08] [Worker-Main-6/INFO]: Preparing spawn area: 37%
-[20:13:09] [Worker-Main-6/INFO]: Preparing spawn area: 38%
-[20:13:09] [Worker-Main-5/INFO]: Preparing spawn area: 39%
-[20:13:10] [Worker-Main-6/INFO]: Preparing spawn area: 41%
-[20:13:10] [Worker-Main-5/INFO]: Preparing spawn area: 42%
-[20:13:11] [Worker-Main-5/INFO]: Preparing spawn area: 44%
-[20:13:11] [Worker-Main-6/INFO]: Preparing spawn area: 45%
-[20:13:12] [Worker-Main-5/INFO]: Preparing spawn area: 46%
-[20:13:12] [Worker-Main-5/INFO]: Preparing spawn area: 48%
-[20:13:13] [Worker-Main-6/INFO]: Preparing spawn area: 49%
-[20:13:13] [Worker-Main-7/INFO]: Preparing spawn area: 50%
-[20:13:14] [Worker-Main-7/INFO]: Preparing spawn area: 53%
-[20:13:14] [Worker-Main-6/INFO]: Preparing spawn area: 53%
-[20:13:15] [Worker-Main-7/INFO]: Preparing spawn area: 56%
-[20:13:15] [Worker-Main-7/INFO]: Preparing spawn area: 59%
-[20:13:16] [Worker-Main-7/INFO]: Preparing spawn area: 61%
-[20:13:16] [Worker-Main-7/INFO]: Preparing spawn area: 65%
-[20:13:17] [Worker-Main-6/INFO]: Preparing spawn area: 67%
-[20:13:17] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[20:13:18] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[20:13:18] [Worker-Main-6/INFO]: Preparing spawn area: 68%
-[20:13:19] [Worker-Main-6/INFO]: Preparing spawn area: 72%
-[20:13:19] [Worker-Main-5/INFO]: Preparing spawn area: 75%
-[20:13:20] [Worker-Main-7/INFO]: Preparing spawn area: 82%
-[20:13:20] [Worker-Main-7/INFO]: Preparing spawn area: 86%
-[20:13:21] [Worker-Main-7/INFO]: Preparing spawn area: 93%
-[20:13:21] [Server thread/INFO]: Time elapsed: 61838 ms
-[20:13:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:13:21] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:23] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:26] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:26] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:27] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:13:28] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:13:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:31] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:31] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:13:31] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:32] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:32] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:34] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:34] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:13:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:13:35] [Worker-Main-6/INFO]: Preparing spawn area: 12%
-[20:13:36] [Worker-Main-6/INFO]: Preparing spawn area: 56%
-[20:13:37] [Worker-Main-6/INFO]: Preparing spawn area: 56%
-[20:13:37] [Worker-Main-6/INFO]: Preparing spawn area: 87%
-[20:13:37] [Server thread/INFO]: Time elapsed: 16100 ms
-[20:13:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.6
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mUsing SpigotSkinRefresher[m
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_17_R1[0;32;1m, using [0;33;1mSpigotSkinRefresher[0;32;1m.[m
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------/Warning\-------------------------[m
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mThis plugin is running in Bungee mode![m
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mYou have to do all configuration at config file[m
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [minside your Bungeecord server.[m
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m(Bungeecord-Server/plugins/SkinsRestorer/).[m
-[20:13:38] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------\Warning/-------------------------[m
-[20:13:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
-[20:13:51] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:13:51] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:13:51] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[20:13:51] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:13:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[20:13:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:13:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:13:52] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:13:53] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v1.8.0.0
-[20:13:53] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.17.1
-[20:13:53] [Server thread/INFO]: [WolfyUtilities] WolfyUtilities version: 1.8.0.0
-[20:13:53] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
-[20:13:53] [Server thread/INFO]: [WolfyUtilities] Register API references
-[20:13:54] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
-[20:13:55] [Server thread/INFO]: [WolfyUtilities] Loading Player Data
-[20:13:55] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
-[20:13:55] [Server thread/INFO]: [WolfyUtilities] Initiating Particles
-[20:13:55] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v1.7.1.3
-[20:13:55] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
-[20:13:55] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
-[20:13:55] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
-[20:13:55] [Server thread/INFO]: [CustomCrafting]     v1.7.1.3 Free
-[20:13:55] [Server thread/INFO]: [CustomCrafting]  
-[20:13:59] [Server thread/INFO]: [CustomCrafting] 
-[20:13:59] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Nat R               | Thomas Texier
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Junye Zhou          | Apprehentice
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Alex                | gizmonster
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Alexander           | The Hound Brothers
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Xwdit               | Pixelcraftian
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Leo                 | DTNTW
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Mr_Mint_            | Matchman
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Hugo Hronec         | Marcin Pootski
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Sundial Shark       | Venterok
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | XiaoMoMi            | yossy_zip
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Jiøí Hudský         | Mithran
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Qsycho              | GD4aming 4
-[20:13:59] [Server thread/INFO]: [CustomCrafting]      | Advanced-Kind       | Filip Oreško
-[20:13:59] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
-[20:13:59] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v5.0.0 translated by WolfyScript
-[20:13:59] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v5.0.0 translated by WolfyScript
-[20:14:03] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
-[20:14:03] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
-[20:14:06] [Server thread/INFO]: [CustomCrafting] Loading Cauldrons
-[20:14:10] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
-[20:14:10] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
-[20:14:10] [Server thread/INFO]: [CustomCrafting] > axes
-[20:14:10] [Server thread/INFO]: [CustomCrafting] > customcrafting
-[20:14:10] [Server thread/INFO]: [CustomCrafting] > pickaxes
-[20:14:11] [Server thread/INFO]: [CustomCrafting] > shovels
-[20:14:14] [Server thread/INFO]: [CustomCrafting] 
-[20:14:14] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
-[20:14:14] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
-[20:14:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:14:14] [Server thread/INFO]: Done (120.946s)! For help, type "help"
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[GitHubUpdate] Downloading update...[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   SkinsRestorer  |[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |------------------|[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   [0;33;1mBungee Mode[0;32;1m    |[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;31;1m14.1.6[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    New version: [0;31;1m14.1.10[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m    A new version is available! Downloading it now...[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m    Update downloaded successfully, it will be applied on the next restart.[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
-[20:14:16] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[GitHubUpdate] Update saved as plugins\update\SkinsRestorer.jar[m
-[20:19:45] [User Authenticator #1/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
-[20:19:48] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:60683] logged in with entity id 13 at ([world]-16.01088072136515, 65.0, -1.699999988079071)
-[20:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5038ms or 100 ticks behind
-[20:21:14] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:21:37] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:24:16] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:28:35] [Server thread/INFO]: PoprostuEWA has made the advancement [Cover Me with Diamonds]
-[20:28:39] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:30:17] [Server thread/WARN]: [WolfyUtilities] Task #338 for WolfyUtilities v1.8.0.0 generated an exception
-java.lang.IllegalArgumentException: character to be escaped is missing
-	at java.util.regex.Matcher.appendExpandedReplacement(Matcher.java:1019) ~[?:?]
-	at java.util.regex.Matcher.appendReplacement(Matcher.java:997) ~[?:?]
-	at java.util.regex.Matcher.replaceAll(Matcher.java:1181) ~[?:?]
-	at java.lang.String.replaceAll(String.java:2142) ~[?:?]
-	at me.wolfyscript.utilities.api.chat.Chat.sendMessage(Chat.java:84) ~[?:?]
-	at me.wolfyscript.utilities.api.chat.Chat.sendKey(Chat.java:112) ~[?:?]
-	at me.wolfyscript.utilities.api.inventory.gui.GuiWindow.sendMessage(GuiWindow.java:356) ~[?:?]
-	at me.wolfyscript.customcrafting.gui.item_creator.tabs.TabDamage.lambda$register$0(TabDamage.java:42) ~[?:?]
-	at me.wolfyscript.utilities.api.inventory.gui.GuiHandler.onChat(GuiHandler.java:479) ~[?:?]
-	at me.wolfyscript.utilities.main.commands.InputCommand.lambda$onCommand$1(InputCommand.java:45) ~[?:?]
+[17:58:57] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[17:59:04] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[17:59:04] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:59:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.7+9f3e795
+[17:59:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@780501d8]
+[17:59:09] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.3-dev+5-5f98d3f
+[17:59:09] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.3-dev+5-5f98d3f
+[17:59:09] [Server thread/INFO]: [BeastWithdraw] Loading BeastWithdraw v2.9.8
+[17:59:09] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.3-dev+5-5f98d3f
+[17:59:09] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
+[17:59:09] [Server thread/INFO]: [Essentials_WarpGUI] Loading Essentials_WarpGUI v2.4
+[17:59:09] [Server thread/INFO]: [WolfyUtilities] Loading WolfyUtilities v1.8.0.0
+[17:59:09] [Server thread/INFO]: [WolfyUtilities] Register json serializer/deserializer
+[17:59:09] [Server thread/INFO]: [WolfyUtilities] Register CustomItem meta checks
+[17:59:10] [Server thread/INFO]: [CustomCrafting] Loading CustomCrafting v1.7.1.3
+[17:59:10] [Server thread/INFO]: [CustomCrafting] WolfyUtilities API: WolfyUtilities v1.8.0.0
+[17:59:10] [Server thread/INFO]: [CustomCrafting] Environment: PROD
+[17:59:10] [Server thread/INFO]: [CustomCrafting] Registering custom data
+[17:59:10] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[17:59:10] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[17:59:10] [Server thread/INFO]: [ProtectionStones] Loading ProtectionStones v2.9.0
+[17:59:10] [Server thread/INFO]: [QuickShop] Loading QuickShop v5.1.0.2
+[17:59:10] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booting up
+[17:59:16] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
+[17:59:16] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[17:59:18] [Server thread/INFO]: [QuickShop] Loading messages translation over-the-air (this may need take a while).
+[17:59:18] [Server thread/INFO]: [QuickShop] Translation over-the-air platform selected: Crowdin
+[17:59:18] [Server thread/INFO]: [QuickShop] Checking for translation updates, this may need a while...
+[17:59:29] [Server thread/INFO]: [QuickShop] Updating translation no-NO from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/no-NO/messages.json
+[17:59:29] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation en-US from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/en-US/messages.json
+[17:59:29] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation sv-SE from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/sv-SE/messages.json
+[17:59:30] [ForkJoinPool.commonPool-worker-7/INFO]: [QuickShop] Updating translation zh-CN from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/zh-CN/messages.json
+[17:59:30] [Server thread/INFO]: [QuickShop] Updating translation pl-PL from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/pl-PL/messages.json
+[17:59:31] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation fi-FI from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/fi-FI/messages.json
+[17:59:31] [ForkJoinPool.commonPool-worker-7/INFO]: [QuickShop] Updating translation zh-TW from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/zh-TW/messages.json
+[17:59:31] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation tr-TR from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/tr-TR/messages.json
+[17:59:31] [Server thread/INFO]: [QuickShop] Updating translation pt-PT from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/pt-PT/messages.json
+[17:59:32] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation da-DK from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/da-DK/messages.json
+[17:59:32] [ForkJoinPool.commonPool-worker-7/INFO]: [QuickShop] Updating translation zh-HK from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/zh-HK/messages.json
+[17:59:35] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation uk-UA from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/uk-UA/messages.json
+[17:59:35] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation nl-NL from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/nl-NL/messages.json
+[17:59:35] [Server thread/INFO]: [QuickShop] Updating translation pt-BR from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/pt-BR/messages.json
+[17:59:35] [ForkJoinPool.commonPool-worker-7/INFO]: [QuickShop] Updating translation cs-CZ from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/cs-CZ/messages.json
+[17:59:36] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation el-GR from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/el-GR/messages.json
+[17:59:36] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation vi-VN from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/vi-VN/messages.json
+[17:59:36] [Server thread/INFO]: [QuickShop] Updating translation ja-JP from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/ja-JP/messages.json
+[17:59:37] [ForkJoinPool.commonPool-worker-7/INFO]: [QuickShop] Updating translation ar-SA from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/ar-SA/messages.json
+[17:59:37] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation he-IL from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/he-IL/messages.json
+[17:59:37] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation sr-SP from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/sr-SP/messages.json
+[17:59:38] [Server thread/INFO]: [QuickShop] Updating translation ko-KR from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/ko-KR/messages.json
+[17:59:38] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation fr-FR from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/fr-FR/messages.json
+[17:59:38] [ForkJoinPool.commonPool-worker-7/INFO]: [QuickShop] Updating translation ca-ES from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/ca-ES/messages.json
+[17:59:38] [Server thread/INFO]: [QuickShop] Updating translation hu-HU from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/hu-HU/messages.json
+[17:59:39] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation es-ES from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/es-ES/messages.json
+[17:59:39] [ForkJoinPool.commonPool-worker-7/INFO]: [QuickShop] Updating translation af-ZA from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/af-ZA/messages.json
+[17:59:39] [ForkJoinPool.commonPool-worker-3/INFO]: [QuickShop] Updating translation de-DE from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/de-DE/messages.json
+[17:59:40] [Server thread/INFO]: [QuickShop] Updating translation it-IT from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/it-IT/messages.json
+[17:59:40] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation ro-RO from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/ro-RO/messages.json
+[17:59:41] [ForkJoinPool.commonPool-worker-5/INFO]: [QuickShop] Updating translation ru-RU from: https://distributions.crowdin.net/daf1a8db40f132ce157c457xrm4/content/master/crowdin/lang/ru-RU/messages.json
+[17:59:41] [Server thread/INFO]: [QuickShop] Loading up integration modules.
+[17:59:41] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Complete
+[17:59:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[17:59:45] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[17:59:45] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.77[m
+[17:59:45] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[17:59:45] [Server thread/INFO]: [m
+[17:59:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:59:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:59:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:59:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:59:54] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 13236ms)
+[17:59:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:59:55] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.3-dev+5-5f98d3f which is not a depend, softdepend or loadbefore of this plugin.
+[17:59:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:59:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:59:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:59:55] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:59:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.7+9f3e795
+[17:59:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:00:00] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:00:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_17_R1_2.PaperweightAdapter as the Bukkit adapter
+[18:00:09] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:00:09] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:00:09] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:00:09] [Server thread/INFO]: [WorldEdit]   
+[18:00:09] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[18:00:09] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[18:00:09] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[18:00:09] [Server thread/INFO]: [WorldEdit]   
+[18:00:09] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[18:00:09] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[18:00:09] [Server thread/INFO]: [WorldEdit]   
+[18:00:09] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[18:00:09] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[18:00:09] [Server thread/INFO]: [WorldEdit]   
+[18:00:09] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[18:00:09] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:00:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:00:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:00:09] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:00:09] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:00:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:00:09] [Server thread/INFO]: Preparing level "world"
+[18:00:11] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:00:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:00:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:00:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:00:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:00:11] [Server thread/INFO]: View Distance: 10
+[18:00:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:00:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:00:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:00:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:00:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:00:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:00:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:00:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:00:11] [Server thread/INFO]: Max TNT Explosions: 100
+[18:00:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:00:11] [Server thread/INFO]: Mob Spawn Range: 6
+[18:00:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:00:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:00:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:00:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:00:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:00:17] [Server thread/INFO]: View Distance: 10
+[18:00:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:00:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:00:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:00:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:00:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:00:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:00:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:00:17] [Server thread/INFO]: Max TNT Explosions: 100
+[18:00:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:00:17] [Server thread/INFO]: Mob Spawn Range: 6
+[18:00:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:00:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:25] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:27] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:00:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:00:28] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:29] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:00:29] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:00:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:00:31] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[18:00:31] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[18:00:32] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[18:00:32] [Worker-Main-8/INFO]: Preparing spawn area: 3%
+[18:00:33] [Worker-Main-7/INFO]: Preparing spawn area: 3%
+[18:00:33] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[18:00:34] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[18:00:34] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[18:00:35] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[18:00:35] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[18:00:36] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[18:00:36] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[18:00:37] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[18:00:37] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[18:00:38] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[18:00:38] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[18:00:39] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[18:00:39] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[18:00:40] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[18:00:40] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[18:00:41] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[18:00:41] [Worker-Main-8/INFO]: Preparing spawn area: 8%
+[18:00:42] [Worker-Main-8/INFO]: Preparing spawn area: 9%
+[18:00:42] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:43] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[18:00:43] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:44] [Worker-Main-8/INFO]: Preparing spawn area: 11%
+[18:00:46] [Worker-Main-8/INFO]: Preparing spawn area: 11%
+[18:00:47] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:47] [Worker-Main-8/INFO]: Preparing spawn area: 11%
+[18:00:47] [Worker-Main-8/INFO]: Preparing spawn area: 11%
+[18:00:47] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[18:00:48] [Worker-Main-8/INFO]: Preparing spawn area: 11%
+[18:00:48] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[18:00:49] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[18:00:49] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:49] [Worker-Main-8/INFO]: Preparing spawn area: 11%
+[18:00:49] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[18:00:50] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:50] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:51] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[18:00:51] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:52] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[18:00:52] [Worker-Main-7/INFO]: Preparing spawn area: 12%
+[18:00:53] [Worker-Main-6/INFO]: Preparing spawn area: 17%
+[18:00:53] [Worker-Main-6/INFO]: Preparing spawn area: 24%
+[18:00:54] [Worker-Main-7/INFO]: Preparing spawn area: 30%
+[18:00:54] [Worker-Main-7/INFO]: Preparing spawn area: 33%
+[18:00:55] [Worker-Main-7/INFO]: Preparing spawn area: 37%
+[18:00:55] [Worker-Main-8/INFO]: Preparing spawn area: 37%
+[18:00:56] [Worker-Main-6/INFO]: Preparing spawn area: 52%
+[18:00:56] [Worker-Main-6/INFO]: Preparing spawn area: 53%
+[18:00:57] [Worker-Main-6/INFO]: Preparing spawn area: 54%
+[18:00:57] [Worker-Main-8/INFO]: Preparing spawn area: 64%
+[18:00:58] [Worker-Main-7/INFO]: Preparing spawn area: 68%
+[18:00:58] [Worker-Main-8/INFO]: Preparing spawn area: 75%
+[18:00:59] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[18:00:59] [Worker-Main-8/INFO]: Preparing spawn area: 93%
+[18:01:00] [Worker-Main-7/INFO]: Preparing spawn area: 96%
+[18:01:08] [Server thread/INFO]: Time elapsed: 49877 ms
+[18:01:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:01:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:12] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:13] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:13] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:14] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:14] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:15] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:16] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:17] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:17] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:17] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:18] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:19] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:20] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:01:23] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:01:25] [Worker-Main-7/INFO]: Preparing spawn area: 1%
+[18:01:25] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[18:01:26] [Worker-Main-7/INFO]: Preparing spawn area: 9%
+[18:01:27] [Worker-Main-8/INFO]: Preparing spawn area: 9%
+[18:01:27] [Worker-Main-7/INFO]: Preparing spawn area: 9%
+[18:01:27] [Worker-Main-6/INFO]: Preparing spawn area: 9%
+[18:01:28] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[18:01:28] [Worker-Main-8/INFO]: Preparing spawn area: 14%
+[18:01:29] [Worker-Main-7/INFO]: Preparing spawn area: 17%
+[18:01:29] [Worker-Main-7/INFO]: Preparing spawn area: 20%
+[18:01:30] [Worker-Main-8/INFO]: Preparing spawn area: 48%
+[18:01:30] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[18:01:31] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[18:01:32] [Worker-Main-8/INFO]: Preparing spawn area: 76%
+[18:01:32] [Worker-Main-8/INFO]: Preparing spawn area: 78%
+[18:01:32] [Worker-Main-7/INFO]: Preparing spawn area: 86%
+[18:01:33] [Worker-Main-6/INFO]: Preparing spawn area: 89%
+[18:01:33] [Server thread/INFO]: Time elapsed: 22791 ms
+[18:01:33] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[18:01:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_17_R1[0;32;1m, using [0;33;1mSpigotSkinRefresher[0;32;1m.[m
+[18:01:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------/Warning\-------------------------[m
+[18:01:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mThis plugin is running in Bungee mode![m
+[18:01:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mYou have to do all configuration at config file[m
+[18:01:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [minside your Bungeecord server.[m
+[18:01:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m(Bungeecord-Server/plugins/SkinsRestorer/).[m
+[18:01:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------\Warning/-------------------------[m
+[18:01:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.3-dev+5-5f98d3f
+[18:01:37] [Server thread/INFO]: [Essentials] You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:01:37] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update Essentials_WarpGUI to the same version.
+[18:01:44] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:01:44] [Server thread/INFO]: No kits found to migrate.
+[18:01:44] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[18:01:44] [Server thread/INFO]: [Essentials] Found 2 files to convert...
+[18:01:44] [Server thread/INFO]: [Essentials] Converted 0/2
+[18:01:44] [Server thread/INFO]: [Essentials] Ban format update complete.
+[18:01:44] [Server thread/INFO]: [Essentials] Starting usermap repair
+[18:01:44] [Server thread/INFO]: [Essentials] Reading: 0,00%
+[18:01:44] [Server thread/INFO]: [Essentials] Completed usermap repair.
+[18:01:44] [Server thread/INFO]: Attempting to migrate ignore list to UUIDs
+[18:01:44] [Server thread/INFO]: Done converting ignore list.
+[18:01:44] [Server thread/INFO]: Attempting to migrate legacy userdata keys to Configurate
+[18:01:45] [Server thread/INFO]: Done converting legacy userdata keys to Configurate.
+[18:01:45] [Server thread/INFO]: Done converting mail list.
+[18:01:45] [Server thread/INFO]: #===========================================================================#
+[18:01:45] [Server thread/INFO]:  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[18:01:45] [Server thread/INFO]:  Only NPC accounts with the default starting balance will be deleted. If
+[18:01:45] [Server thread/INFO]:  they turn out to be valid NPC accounts, they will be re-created as needed.
+[18:01:45] [Server thread/INFO]:  Any files deleted here will be backed up to the 
+[18:01:45] [Server thread/INFO]:  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[18:01:45] [Server thread/INFO]:  have been purged incorrectly, you should restore it from the backup and
+[18:01:45] [Server thread/INFO]:  report it to us on GitHub:
+[18:01:45] [Server thread/INFO]:  https://github.com/EssentialsX/Essentials/issues/new/choose
+[18:01:45] [Server thread/INFO]: 
+[18:01:45] [Server thread/INFO]:  NOTE: This is a one-time process and will take several minutes if you have
+[18:01:45] [Server thread/INFO]:  a lot of userdata files! If you interrupt this process, EssentialsX will
+[18:01:45] [Server thread/INFO]:  skip the process until you rename or remove the backup folder.
+[18:01:45] [Server thread/INFO]: #===========================================================================#
+[18:01:45] [Server thread/INFO]: Found ~2 files under "plugins/Essentials/userdata"...
+[18:01:45] [Server thread/INFO]: #===========================================================================#
+[18:01:45] [Server thread/INFO]:  EssentialsX has finished purging NPC accounts.
+[18:01:45] [Server thread/INFO]: 
+[18:01:45] [Server thread/INFO]:  Deleted accounts: 0
+[18:01:45] [Server thread/INFO]:  Total accounts processed: 2
+[18:01:45] [Server thread/INFO]: 
+[18:01:45] [Server thread/INFO]:  Purged accounts have been backed up to
+[18:01:45] [Server thread/INFO]:  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[18:01:45] [Server thread/INFO]:  if needed. Please report any files which have been incorrectly deleted
+[18:01:45] [Server thread/INFO]:  to us on GitHub:
+[18:01:45] [Server thread/INFO]:  https://github.com/EssentialsX/Essentials/issues/new/choose
+[18:01:45] [Server thread/INFO]: #===========================================================================#
+[18:01:50] [Server thread/INFO]: Loaded 36926 items from items.json.
+[18:01:50] [Server thread/INFO]: Using locale pl_PL
+[18:01:51] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:01:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:01:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:01:52] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:01:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.3-dev+5-5f98d3f
+[18:01:52] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:01:52] [Server thread/INFO]: [BeastWithdraw] Enabling BeastWithdraw v2.9.8
+[18:01:53] [Server thread/INFO]: [0;37;22m[[0;31;22mBeast[0;36;1mWithdraw[0;37;22m] [0;32;22m/XpBottle command aliases [0;33;1m[xpb, beastxpb, bottle] [0;32;22mare registered.[m
+[18:01:53] [Server thread/INFO]: [0;37;22m[[0;31;22mBeast[0;36;1mWithdraw[0;37;22m] [0;32;22m/bWithdraw command aliases [0;33;1m[cashnote, withdraw, moneywithdraw, moneynote] [0;32;22mare registered.[m
+[18:01:53] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_17_R1! Trying to find NMS support
+[18:01:53] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_17_R1' loaded!
+[18:01:53] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[18:01:53] [Server thread/INFO]: [0;37;22m[[0;31;22mBeast[0;36;1mWithdraw[0;37;22m] [0;32;22mVersion 2.9.8 : has been enabled![m
+[18:01:53] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.3-dev+5-5f98d3f
+[18:01:53] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:01:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:02:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:02:34] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:02:37] [Server thread/INFO]: [Essentials_WarpGUI] Enabling Essentials_WarpGUI v2.4
+[18:02:37] [Server thread/INFO]: [Essentials_WarpGUI] Loading library 'Vault'...
+[18:02:37] [Server thread/INFO]: [Essentials_WarpGUI] Loading library 'Essentials'...
+[18:02:38] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v1.8.0.0
+[18:02:38] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.17.1
+[18:02:38] [Server thread/INFO]: [WolfyUtilities] WolfyUtilities version: 1.8.0.0
+[18:02:38] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[18:02:38] [Server thread/INFO]: [WolfyUtilities] Register API references
+[18:02:40] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
+[18:02:41] [Server thread/INFO]: [WolfyUtilities] Loading Player Data
+[18:02:43] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[18:02:43] [Server thread/INFO]: [WolfyUtilities] Initiating Particles
+[18:02:43] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v1.7.1.3
+[18:02:43] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[18:02:43] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[18:02:43] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[18:02:43] [Server thread/INFO]: [CustomCrafting]     v1.7.1.3 Free
+[18:02:43] [Server thread/INFO]: [CustomCrafting]  
+[18:02:45] [Server thread/INFO]: [CustomCrafting] 
+[18:02:45] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Nat R               | Thomas Texier
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Junye Zhou          | Apprehentice
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Alex                | gizmonster
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Alexander           | The Hound Brothers
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Xwdit               | Pixelcraftian
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Leo                 | DTNTW
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Mr_Mint_            | Matchman
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Hugo Hronec         | Marcin Pootski
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Sundial Shark       | Venterok
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | XiaoMoMi            | yossy_zip
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Jiøí Hudský         | Mithran
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Qsycho              | GD4aming 4
+[18:02:45] [Server thread/INFO]: [CustomCrafting]      | Advanced-Kind       | Filip Oreško
+[18:02:45] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[18:02:47] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v5.0.0 translated by WolfyScript
+[18:02:47] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v5.0.0 translated by WolfyScript
+[18:02:54] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[18:02:55] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[18:02:59] [Server thread/INFO]: [CustomCrafting] Loading Cauldrons
+[18:03:00] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[18:03:00] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[18:03:00] [Server thread/INFO]: [CustomCrafting] > armor
+[18:03:01] [Server thread/INFO]: [CustomCrafting] > axes
+[18:03:01] [Server thread/INFO]: [CustomCrafting] > customcrafting
+[18:03:01] [Server thread/INFO]: [CustomCrafting] > hoes
+[18:03:01] [Server thread/INFO]: [CustomCrafting] > other
+[18:03:01] [Server thread/INFO]: [CustomCrafting] > pickaxes
+[18:03:01] [Server thread/INFO]: [CustomCrafting] > potion
+[18:03:01] [Server thread/INFO]: [CustomCrafting] > potions
+[18:03:02] [Server thread/INFO]: [CustomCrafting] > shovels
+[18:03:04] [Server thread/INFO]: [CustomCrafting] 
+[18:03:04] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[18:03:04] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[18:03:04] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.9.0
+[18:03:04] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[18:03:04] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[18:03:06] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
+[18:03:06] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[18:03:07] [CC-update-check/WARN]: [CustomCrafting] Your version is outdated! There is a new version available! Download it here: https://www.spigotmc.org/resources/55883/
+[18:03:09] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[18:03:09] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[18:03:11] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[18:03:11] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[18:03:11] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[18:03:11] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[18:03:11] [Server thread/INFO]: [QuickShop] Enabling QuickShop v5.1.0.2
+[18:03:11] [Server thread/INFO]: [QuickShop] QuickShop Reremake
+[18:03:11] [Server thread/INFO]: [QuickShop] Starting plugin self-test, please wait...
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] Java Runtime Environment Version Test
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] EnvChecker SelfTest
+[18:03:14] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on NMS version v1_17_R1 For Minecraft version 1.17.1
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] Spigot Based Server Test
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] Old QuickShop Test
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] ModdedServer Based Test
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] CoreSupport Test
+[18:03:14] [Server thread/WARN]: [QuickShop] [WARN] Virtual DisplayItem Support Test: ProtocolLib is not installed, virtual DisplayItem seems will not work on your server.
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] GameVersion supporting Test
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] Permission Manager Test
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] PacketListenerAPI Conflict Test
+[18:03:14] [Server thread/INFO]: [QuickShop] [OK] End of life Test
+[18:03:14] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[18:03:15] [Server thread/INFO]: [QuickShop] Developers: PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood (KaiKikuchi), jho5245, Ghost_chu, cakoyo, Ectabro, portlek, log4b0at, Andre601, deadman96385, Vlvxingze, DoctaEnkoda, Mgazul, TiaraRinne, sandtechnology, Starmism, Chris6ix, Rean Schwarzer, mart-r, raphtaliapt, Tim269, creatorfromhell, LoneDev6, judgetread, confuxeon, ibmibmibm, yannicklamprecht, PyvesB, PaulBGD, ORelio, JoschuaSchneider, Starmium, harry0198
+[18:03:15] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[18:03:15] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[18:03:15] [Server thread/INFO]: [QuickShop] Chat processor selected: Hardcoded BungeeChat Lib
+[18:03:15] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[18:03:15] [Server thread/INFO]: [QuickShop] Game assets server selected: Mojang API
+[18:03:16] [Server thread/INFO]: [QuickShop] Loading items translations...
+[18:03:17] [Server thread/INFO]: [QuickShop] Loading enchantments translations...
+[18:03:17] [Server thread/INFO]: [QuickShop] Loading potions translations...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Szybkoœæ] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Slow] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Fast Digging] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Slow Digging] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Increase Damage] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Heal] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Harm] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Jump] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Confusion] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Regeneracja] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Damage Resistance] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Ognioodpornoœæ] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Oddychanie pod wod¹] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Niewidzialnoœæ] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Oœlepienie] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Noktowizja] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [G³ód] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [S³aboœæ] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Zatrucie] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Obumieranie] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Zwiêkszenie zdrowia] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Absorpcja] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Nasycenie] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Blask] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Lewitacja] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Szczêœcie] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Pech] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Powolne opadanie] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Przewodnia potêga] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Pomocna p³etwa] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Z³y omen] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Found new potion [Bohater wioski] , adding it to the config...
+[18:03:17] [Server thread/INFO]: [QuickShop] Successfully loaded WorldEdit support!
+[18:03:17] [Server thread/WARN]: [QuickShop] You're using Real Display system and that may cause your server lagg, switch to Virtual Display system if you can!
+[18:03:17] [Server thread/INFO]: [QuickShop] Setting up database...
+[18:03:17] [Server thread/INFO]: [QuickShop] Checking and updating database columns, it may take a while...
+[18:03:17] [Server thread/INFO]: [QuickShop] Finished!
+[18:03:17] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
+[18:03:17] [Server thread/INFO]: [QuickShop] Registering commands...
+[18:03:20] [Server thread/INFO]: [QuickShop] EventManager selected: BukkitEventManager
+[18:03:21] [Server thread/INFO]: [QuickShop] Fetching shops from the database...If plugin stuck there, check your database connection.
+[18:03:21] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[18:03:21] [Server thread/INFO]: [QuickShop] >> Shop Loader Information
+[18:03:21] [Server thread/INFO]: [QuickShop] Total           shops: 0
+[18:03:21] [Server thread/INFO]: [QuickShop] Valid           shops: 0
+[18:03:21] [Server thread/INFO]: [QuickShop] Pending              : 0
+[18:03:21] [Server thread/INFO]: [QuickShop] Waiting worlds loaded: 0
+[18:03:21] [Server thread/INFO]: [QuickShop] Waiting chunks loaded: 0
+[18:03:21] [Server thread/INFO]: [QuickShop] Done! Used 3ms to loaded shops in database.
+[18:03:21] [Server thread/INFO]: [QuickShop] Registering listeners...
+[18:03:21] [Server thread/INFO]: [QuickShop] Registering DisplayCheck task....
+[18:03:21] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[18:03:21] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[18:03:21] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
+[18:03:21] [Server thread/INFO]: [QuickShop] [Shop Purger] Purge not enabled!
+[18:03:21] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 9395 ms.
+[18:03:21] [Server thread/INFO]: [QuickShop] Using economy system: EssentialsX Economy
+[18:03:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:03:26] [Server thread/INFO]: Done (196.246s)! For help, type "help"
+[18:03:26] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:03:26] [Server thread/INFO]: [QuickShop] Registering bStats metrics...
+[18:03:26] [Server thread/INFO]: [QuickShop] Using economy system: EssentialsX Economy
+[18:03:26] [Craft Scheduler Thread - 3/INFO]: [Essentials] §7Pobieranie informacji o wersji...
+[18:03:30] [Craft Scheduler Thread - 3/WARN]: [Essentials] §4Twoja programistyczna wersja EssentialsX (§c1§4) jest nieaktualna!
+[18:03:30] [Craft Scheduler Thread - 3/WARN]: [Essentials] §4Pobierz tutaj:§c https://essentialsx.net/downloads.html
+[18:03:30] [Craft Scheduler Thread - 4/INFO]: [0;37;22m[[0;31;22mBeast[0;36;1mWithdraw[0;37;22m] [0;33;22mThere is not a new update available.[m
+[18:03:30] [Craft Scheduler Thread - 41/INFO]: [Vault] Checking for Updates ... 
+[18:03:31] [Craft Scheduler Thread - 41/INFO]: [Vault] No new version available
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   SkinsRestorer  |[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |------------------|[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   [0;33;1mBungee Mode[0;32;1m    |[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;32;1m14.1.10[m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    This is the latest version![m
+[18:03:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[18:08:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7600ms or 152 ticks behind
+[18:09:20] [User Authenticator #1/WARN]: [LuckPerms] Processing login for MALYMATI2007 took 1876ms.
+[18:09:20] [User Authenticator #1/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[18:09:42] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:49227] logged in with entity id 79 at ([world]-307.8689441428572, 66.0, 207.30000001192093)
+[18:09:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23036ms or 460 ticks behind
+[18:09:52] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 284,531800ms. Summary: Getting prefix for MALYMATI2007
+[18:10:07] [Server thread/INFO]: MALYMATI2007 issued server command: /whitelist
+[18:10:10] [Server thread/INFO]: MALYMATI2007 issued server command: /whitelist list
+[18:10:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6660ms or 133 ticks behind
+[18:11:29] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[18:12:51] [Server thread/INFO]: MALYMATI2007 issued server command: /list
+[18:23:32] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
+[18:23:41] [Server thread/INFO]: MALYMATI2007 left the game
+[18:23:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10487ms or 209 ticks behind
+[18:24:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19174ms or 383 ticks behind
+[18:28:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5252ms or 105 ticks behind
+[18:29:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5250ms or 105 ticks behind
+[18:30:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6662ms or 133 ticks behind
+[18:34:50] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
+[18:38:20] [User Authenticator #3/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[18:38:19] [User Authenticator #2/WARN]: [LuckPerms] Processing login for CzarekMC took 2931ms.
+[18:38:20] [User Authenticator #2/INFO]: UUID of player CzarekMC is a06d716b-8334-37ec-82e3-0b821553872b
+[18:38:48] [Server thread/INFO]: CzarekMC[/26.29.78.46:62889] logged in with entity id 861 at ([world]-223.5, 63.0, 241.5)
+[18:39:00] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
+[18:39:01] [Server thread/INFO]: MALYMATI2007 left the game
+[18:39:01] [User Authenticator #4/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[18:39:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 41788ms or 835 ticks behind
+[18:39:19] [Server thread/INFO]: CzarekMC lost connection: Timed out
+[18:39:19] [Server thread/INFO]: CzarekMC left the game
+[18:39:19] [Server thread/WARN]: handleDisconnection() called twice
+[18:39:32] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
+[18:39:32] [Server thread/INFO]: MALYMATI2007 left the game
+[18:39:33] [User Authenticator #5/INFO]: UUID of player CzarekMC is a06d716b-8334-37ec-82e3-0b821553872b
+[18:39:33] [User Authenticator #6/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[18:39:33] [Server thread/WARN]: handleDisconnection() called twice
+[18:39:33] [Server thread/WARN]: handleDisconnection() called twice
+[18:39:35] [Server thread/INFO]: CzarekMC[/26.29.78.46:62939] logged in with entity id 870 at ([world]-223.5, 63.0, 241.5)
+[18:39:39] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:62937] logged in with entity id 871 at ([world]-306.9504214292511, 67.92071268702628, 205.9410827751755)
+[18:39:44] [Server thread/INFO]: CzarekMC has made the advancement [Getting an Upgrade]
+[18:40:00] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> .[m
+[18:40:08] [Server thread/INFO]: MALYMATI2007 issued server command: /op CzarekMC
+[18:40:09] [Server thread/INFO]: [MALYMATI2007: Made CzarekMC a server operator]
+[18:40:11] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> daj gm[m
+[18:40:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 40064ms or 801 ticks behind
+[18:40:15] [Server thread/INFO]: MALYMATI2007 issued server command: /tp CzarekMC MALYMATI2007
+[18:40:33] [Server thread/INFO]: CzarekMC issued server command: /gm creative
+[18:41:05] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> wskakuj elf z bebul¹ dobry[m
+[18:41:14] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> fajna peleryna[m
+[18:41:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5831ms or 116 ticks behind
+[18:41:24] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> bierz[m
+[18:41:25] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> wskakuj[m
+[18:41:34] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> czek[m
+[18:41:37] [Craft Scheduler Thread - 57/WARN]: [CustomCrafting] Plugin CustomCrafting v1.7.1.3 generated an exception while executing task 2314
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1225) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.cache.CustomCache.getButtons(CustomCache.java:58) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.cache.CustomCache.setButton(CustomCache.java:62) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.GuiHandler.setButton(GuiHandler.java:485) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.GuiUpdate.setButton(GuiUpdate.java:132) ~[?:?]
+	at me.wolfyscript.customcrafting.gui.CCWindow.onUpdateAsync(CCWindow.java:39) ~[?:?]
+	at me.wolfyscript.customcrafting.gui.recipebook.MainMenu.onUpdateAsync(MainMenu.java:49) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.GuiWindow.openInventory(GuiWindow.java:203) ~[?:?]
+	at me.wolfyscript.utilities.api.inventory.gui.GuiWindow.lambda$callUpdate$1(GuiWindow.java:193) ~[?:?]
 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
-	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1269) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:438) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1217) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1050) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:305) ~[spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.17.1.jar:3284-Spigot-3892929-0ebef35]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
 	at java.lang.Thread.run(Thread.java:831) [?:?]
-[20:30:58] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:38:20] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:38:43] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:40:24] [Server thread/INFO]: PoprostuEWA issued server command: /cc
-[20:42:12] [Server thread/INFO]: PoprostuEWA issued server command: /cc reload
-[20:42:12] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v5.0.0 translated by WolfyScript
-[20:42:12] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v5.0.0 translated by WolfyScript
-[20:42:12] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
-[20:42:12] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
-[20:42:12] [Server thread/INFO]: [CustomCrafting] > axes
-[20:42:13] [Server thread/INFO]: [CustomCrafting] > customcrafting
-[20:42:13] [Server thread/INFO]: [CustomCrafting] > other
-[20:42:13] [Server thread/INFO]: [CustomCrafting] > pickaxes
-[20:42:13] [Server thread/INFO]: [CustomCrafting] > potions
-[20:42:13] [Server thread/INFO]: [CustomCrafting] > shovels
-[20:42:15] [Server thread/INFO]: [CustomCrafting] 
-[20:42:15] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
-[20:44:19] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
-[20:44:33] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
-[20:44:33] [Server thread/WARN]: PoprostuEWA moved too quickly! -188.5144303827524,12.697008762440205,52.90849069547463
-[20:44:49] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
-[20:44:49] [Server thread/WARN]: PoprostuEWA moved too quickly! -89.24635486322224,0.0,-18.055768740984192
-[20:44:51] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
-[20:44:51] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
-[20:44:52] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
-[20:44:53] [Server thread/INFO]: Teleported PoprostuEWA to 0.500000, 100.000000, 0.500000
-[20:48:10] [Server thread/INFO]: Made PoprostuEWA no longer a server operator
-[20:54:38] [Server thread/INFO]: PoprostuEWA has made the advancement [Take Aim]
-[20:55:03] [User Authenticator #2/WARN]: [LuckPerms] Processing login for MALYMATI2007 took 1409ms.
-[20:55:03] [User Authenticator #2/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
-[20:55:29] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:62217] logged in with entity id 3489 at ([world]-223.5, 63.0, 241.5)
-[20:55:29] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
-[20:55:30] [Server thread/INFO]: MALYMATI2007 left the game
-[20:55:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26832ms or 536 ticks behind
-[20:55:30] [Server thread/WARN]: handleDisconnection() called twice
-[20:56:35] [User Authenticator #3/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
-[20:56:36] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:62284] logged in with entity id 3568 at ([world]-223.5, 63.0, 241.5)
-[20:57:27] [Server thread/INFO]: Made MALYMATI2007 a server operator
-[20:57:32] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative
-[20:57:33] [Server thread/INFO]: [MALYMATI2007: Set own game mode to Creative Mode]
-[20:57:35] [Server thread/WARN]: MALYMATI2007 moved too quickly! 3.524155010048304,9.061308780938333,3.319264052169956
-[20:57:42] [Server thread/INFO]: MALYMATI2007 issued server command: /kill PoprostuEWA
-[20:57:42] [Server thread/INFO]: PoprostuEWA fell out of the world
-[20:57:43] [Server thread/INFO]: [MALYMATI2007: Killed PoprostuEWA]
-[20:57:43] [Server thread/WARN]: MALYMATI2007 moved too quickly! -5.895376729334771,0.0,8.236841677311048
-[20:57:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12052ms or 241 ticks behind
-[20:57:54] [Server thread/WARN]: MALYMATI2007 moved too quickly! 21.457694415017016,9.926183552159898,-8.215148501477984
-[20:58:34] [Server thread/INFO]: PoprostuEWA has completed the challenge [Cover Me in Debris]
-[20:58:35] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[20:58:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5668ms or 113 ticks behind
-[21:00:09] [Server thread/WARN]: PoprostuEWA moved too quickly! 11.017772995304,-2.3245612398704907,7.479433489505141
-[21:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5120ms or 102 ticks behind
-[21:00:17] [Server thread/WARN]: PoprostuEWA moved too quickly! 10.547985693719738,9.187501324600731,18.46343594234378
-[21:01:57] [Server thread/WARN]: PoprostuEWA moved too quickly! -21.403354003392863,0.0,-9.577056848901407
-[21:02:07] [Server thread/INFO]: PoprostuEWA has reached the goal [Sky's the Limit]
-[21:03:46] [Server thread/INFO]: MALYMATI2007 has reached the goal [Sky's the Limit]
-[21:03:52] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:04:59] [Server thread/WARN]: PoprostuEWA moved too quickly! -12.532917887400856,0.0,-0.22773718716780422
-[21:05:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6235ms or 124 ticks behind
-[21:05:15] [Server thread/WARN]: PoprostuEWA moved too quickly! -1.7817798258713538,8.062588474544995,12.511404115252276
-[21:09:17] [Server thread/INFO]: PoprostuEWA lost connection: Disconnected
-[21:09:17] [Server thread/INFO]: PoprostuEWA left the game
-[21:12:00] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:12:23] [Server thread/INFO]: MALYMATI2007 has made the advancement [Cover Me with Diamonds]
-[21:12:26] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:15:15] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
-[21:16:26] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:23:27] [User Authenticator #4/WARN]: [LuckPerms] Processing login for PoprostuEWA took 1675ms.
-[21:23:27] [User Authenticator #4/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
-[21:23:32] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:62773] logged in with entity id 7766 at ([world]35.97689232214139, 91.10398121350168, 723.0713536663442)
-[21:23:51] [Server thread/INFO]: PoprostuEWA lost connection: Disconnected
-[21:23:51] [Server thread/INFO]: PoprostuEWA left the game
-[21:23:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23488ms or 469 ticks behind
-[21:23:51] [User Authenticator #5/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
-[21:23:51] [Server thread/WARN]: handleDisconnection() called twice
-[21:23:52] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:62777] logged in with entity id 7767 at ([world]35.97689232214139, 91.10398121350168, 723.0713536663442)
-[21:24:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20271ms or 405 ticks behind
-[21:24:45] [Server thread/WARN]: PoprostuEWA moved too quickly! -8.0366244994439,0.5568313181264983,-13.453210950848131
-[21:26:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5372ms or 107 ticks behind
-[21:26:21] [Server thread/WARN]: PoprostuEWA moved too quickly! -28.354067556973092,4.670601625587139,-23.925252796819677
-[21:27:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20798ms or 415 ticks behind
-[21:27:24] [Server thread/WARN]: PoprostuEWA moved too quickly! 7.560052606376587,4.313234835430947,5.10860784116818
-[21:27:30] [Server thread/WARN]: PoprostuEWA moved too quickly! 8.565997642443563,0.9262913360353338,6.351982857658186
-[21:27:58] [Server thread/WARN]: PoprostuEWA moved too quickly! -15.619719289467284,0.0,-1.1259002032934404
-[21:37:11] [Server thread/WARN]: PoprostuEWA moved too quickly! 5.11185741308654,1.6813915239116994,9.037993109217723
-[21:37:45] [Server thread/WARN]: PoprostuEWA moved too quickly! -10.345485096667858,0.0,7.4971869538943565
-[21:38:32] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:38:40] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:38:57] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
-[21:38:57] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
-[21:39:08] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:39:27] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode survival
-[21:39:27] [Server thread/INFO]: [MALYMATI2007: Set own game mode to Survival Mode]
-[21:39:54] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative
-[21:39:54] [Server thread/INFO]: [MALYMATI2007: Set own game mode to Creative Mode]
-[21:42:26] [Server thread/INFO]: MALYMATI2007 issued server command: /tp PoprostuEWA ~ 1000 ~
-[21:42:26] [Server thread/INFO]: [MALYMATI2007: Teleported PoprostuEWA to -304.408148, 1000.000000, 207.857779]
-[21:42:28] [Server thread/WARN]: PoprostuEWA moved too quickly! 0.0,-10.806526110009258,0.0
-[21:43:06] [Server thread/INFO]: MALYMATI2007 issued server command: /tp PoprostuEWA ~ 100 ~
-[21:43:06] [Server thread/INFO]: [MALYMATI2007: Teleported PoprostuEWA to -304.408148, 100.000000, 207.857779]
-[21:43:06] [Server thread/WARN]: PoprostuEWA moved too quickly! -11.875997247407156,-97.99269079282709,7.112873219993105
-[21:44:02] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
-[21:44:02] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
-[21:46:25] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
-[21:46:28] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:48:37] [Server thread/INFO]: MALYMATI2007 issued server command: /time set day
-[21:48:37] [Server thread/INFO]: [MALYMATI2007: Set the time to 1000]
-[21:50:45] [Server thread/INFO]: MALYMATI2007 has made the advancement [Diamonds!]
-[21:52:28] [Server thread/INFO]: MALYMATI2007 has made the advancement [Ol' Betsy]
-[21:52:54] [Server thread/INFO]: MALYMATI2007 issued server command: /summon minecraft:pillager
-[21:52:54] [Server thread/INFO]: [MALYMATI2007: Summoned new Pillager]
-[21:53:18] [Server thread/INFO]: PoprostuEWA has made the advancement [Ol' Betsy]
-[21:53:27] [Server thread/INFO]: PoprostuEWA has made the advancement [Who's the Pillager Now?]
-[21:54:46] [Server thread/INFO]: MALYMATI2007 issued server command: /clear PoprostuEWA minecraft:crossbow
-[21:54:46] [Server thread/INFO]: [MALYMATI2007: Removed 1 items from player PoprostuEWA]
-[21:55:05] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[21:55:14] [Server thread/INFO]: MALYMATI2007 issued server command: /clear PoprostuEWA minecraft:crossbow
-[21:55:14] [Server thread/INFO]: [MALYMATI2007: Removed 1 items from player PoprostuEWA]
-[21:56:21] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode survival PoprostuEWA
-[21:56:21] [Server thread/INFO]: [MALYMATI2007: Set PoprostuEWA's game mode to Survival Mode]
-[21:57:11] [Server thread/INFO]: MALYMATI2007 issued server command: /summon minecraft:zombie ~ ~ ~
-[21:57:11] [Server thread/INFO]: [MALYMATI2007: Summoned new Zombie]
-[21:57:25] [Server thread/INFO]: MALYMATI2007 issued server command: /attribute 9775d386-c57d-4def-a35e-35890b5d1352 minecraft:generic.armor base get
-[21:57:29] [Server thread/INFO]: MALYMATI2007 issued server command: /attribute 9775d386-c57d-4def-a35e-35890b5d1352 minecraft:generic.armor base set 200
-[21:57:32] [Server thread/INFO]: MALYMATI2007 issued server command: /attribute 9775d386-c57d-4def-a35e-35890b5d1352 minecraft:generic.armor base set 10
-[21:57:43] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
-[21:57:43] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
-[21:58:20] [Server thread/INFO]: MALYMATI2007 issued server command: /kick PoprostuEWA
-[21:58:20] [Server thread/INFO]: PoprostuEWA lost connection: Kicked by an operator
-[21:58:20] [Server thread/INFO]: PoprostuEWA left the game
-[21:58:20] [Server thread/INFO]: [MALYMATI2007: Kicked PoprostuEWA: Kicked by an operator]
-[21:58:31] [User Authenticator #6/INFO]: UUID of player PoprostuEWA is e334e248-e37f-3265-8aba-bbb8c92c7cea
-[21:58:31] [Server thread/INFO]: PoprostuEWA[/192.168.1.26:65384] logged in with entity id 14507 at ([world]-270.7233002534429, 95.0, 250.11302033699656)
-[21:58:53] [Server thread/INFO]: MALYMATI2007 issued server command: /time set day
-[21:58:53] [Server thread/INFO]: [MALYMATI2007: Set the time to 1000]
-[21:59:31] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative
-[21:59:34] [Server thread/INFO]: MALYMATI2007 issued server command: /say debil
-[21:59:35] [Server thread/INFO]: [MALYMATI2007] debil
-[21:59:58] [Async Chat Thread - #10/INFO]: <PoprostuEWA> ygfytfuykkghuilk6gytkbi5gtk7u6jvyoi,uktv5guijkbu y9t876yh[m
-[22:00:21] [Server thread/INFO]: PoprostuEWA has reached the goal [Postmortal]
-[22:00:54] [Server thread/INFO]: MALYMATI2007 issued server command: /gamemode creative PoprostuEWA
-[22:00:54] [Server thread/INFO]: [MALYMATI2007: Set PoprostuEWA's game mode to Creative Mode]
-[22:02:30] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:02:47] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:06:41] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:06:55] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:07:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5752ms or 115 ticks behind
-[22:09:16] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:09:59] [Server thread/INFO]: MALYMATI2007 issued server command: /wua d77a1778-9bec-4e4a-ab71-6e792e7fa20a
-[22:10:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6293ms or 125 ticks behind
-[22:10:33] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:12:52] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:13:23] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:14:20] [Server thread/INFO]: MALYMATI2007 issued server command: /weather clear
-[22:14:20] [Server thread/INFO]: [MALYMATI2007: Set the weather to clear]
-[22:14:24] [Server thread/INFO]: MALYMATI2007 issued server command: /time set day
-[22:14:24] [Server thread/INFO]: [MALYMATI2007: Set the time to 1000]
-[22:15:02] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:16:37] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
-[22:18:11] [Server thread/INFO]: MALYMATI2007 issued server command: /clear PoprostuEWA potion
-[22:18:11] [Server thread/INFO]: [MALYMATI2007: Removed 1 items from player PoprostuEWA]
-[22:19:54] [Server thread/INFO]: PoprostuEWA lost connection: Disconnected
-[22:19:54] [Server thread/INFO]: PoprostuEWA left the game
-[22:21:14] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:21:28] [Async Chat Thread - #13/INFO]: <MALYMATI2007> &a&la[m
-[22:21:32] [Server thread/INFO]: MALYMATI2007 issued server command: /t
-[22:21:34] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:21:51] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:22:30] [Server thread/INFO]: MALYMATI2007 issued server command: /cc give MALYMATI2007 shovels:emerald
-[22:22:44] [Async Chat Thread - #13/INFO]: <MALYMATI2007> unbreakable 3[m
-[22:22:47] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:23:01] [Async Chat Thread - #13/INFO]: <MALYMATI2007> unbreaking 3[m
-[22:23:03] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:23:56] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:24:43] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:25:25] [Server thread/INFO]: MALYMATI2007 has made the advancement [Acquire Hardware]
-[22:25:27] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:27:46] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:29:10] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
-[22:33:49] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
-[22:33:49] [Server thread/INFO]: MALYMATI2007 left the game
-[22:35:46] [Server thread/INFO]: Stopping the server
-[22:35:46] [Server thread/INFO]: Stopping server
-[22:35:46] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v1.7.1.3
-[22:35:48] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
-[22:35:48] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v1.8.0.0
-[22:35:49] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
-[22:35:49] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
-[22:35:49] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[22:35:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.7+9f3e795
-[22:35:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:35:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.6
-[22:35:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[22:35:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[22:35:51] [Server thread/INFO]: [LuckPerms] Closing storage...
-[22:35:55] [Server thread/INFO]: [LuckPerms] Goodbye!
-[22:35:55] [Server thread/INFO]: Saving players
-[22:35:55] [Server thread/INFO]: Saving worlds
-[22:35:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:36:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:41:43] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> co to[m
+[18:41:50] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> ksiêga receptur[m
+[18:42:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5426ms or 108 ticks behind
+[18:42:07] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> tam s¹ wszystkie customowe receptury[m
+[18:42:47] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> mam lagi[m
+[18:42:53] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> wiem[m
+[18:42:57] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> ja te¿[m
+[18:43:17] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> a w tym garnku mo¿na gotowaæ ??[m
+[18:43:27] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> paproæ wrzuæ tam[m
+[18:43:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 60721ms or 1214 ticks behind
+[18:43:57] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> i[m
+[18:44:04] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> ale koks[m
+[18:44:15] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> tera to[m
+[18:44:27] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> ziemia[m
+[18:44:30] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> tera wskakuj tam elf ponoæ z cebul¹ dobry[m
+[18:45:10] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> co wrzuci³eœ[m
+[18:45:13] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> ziemiê[m
+[18:45:24] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> 5 jagód a nie 1 wrzuæ[m
+[18:45:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5757ms or 115 ticks behind
+[18:46:06] [Server thread/INFO]: CzarekMC has reached the goal [Sky's the Limit]
+[18:46:17] [Async Chat Thread - #0/INFO]: [m<[0;31;22mMALYMATI2007[m> XD[m
+[18:46:56] [Async Chat Thread - #0/INFO]: [m<[0;31;22mCzarekMC[m> a zrobisz ¿e jak to wrzuce bêdzie mikstura zelfa[m
+[18:47:01] [Server thread/INFO]: CzarekMC lost connection: Timed out
+[18:47:03] [Server thread/INFO]: CzarekMC left the game
+[18:47:03] [Server thread/INFO]: MALYMATI2007 lost connection: Timed out
+[18:47:05] [Server thread/INFO]: MALYMATI2007 left the game
+[18:47:10] [Server thread/WARN]: handleDisconnection() called twice
+[18:47:10] [Server thread/WARN]: handleDisconnection() called twice
+[18:47:30] [User Authenticator #7/INFO]: UUID of player CzarekMC is a06d716b-8334-37ec-82e3-0b821553872b
+[18:48:10] [Server thread/INFO]: CzarekMC[/26.29.78.46:63042] logged in with entity id 1269 at ([world]-306.787788805744, 68.32332887139867, 204.88867787040363)
+[18:48:10] [User Authenticator #8/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[18:48:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@1380b9d0[id=a10c6017-37c5-355b-8a94-8f85cb99d07c,name=MALYMATI2007,properties={textures=[com.mojang.authlib.properties.Property@79fa94b8]},legacy=false] (/127.0.0.1:63048) lost connection: Disconnected
+[18:48:19] [User Authenticator #9/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[18:48:21] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:57195] logged in with entity id 1270 at ([world]-307.3613739931855, 65.24813599859094, 208.34309291923608)
+[18:48:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 136205ms or 2724 ticks behind
+[18:48:46] [Server thread/INFO]: MALYMATI2007 lost connection: Timed out
+[18:48:46] [Server thread/INFO]: MALYMATI2007 left the game
+[18:48:46] [Server thread/WARN]: handleDisconnection() called twice
+[18:49:05] [User Authenticator #10/INFO]: UUID of player MALYMATI2007 is a10c6017-37c5-355b-8a94-8f85cb99d07c
+[18:49:08] [Server thread/INFO]: MALYMATI2007[/127.0.0.1:57212] logged in with entity id 1318 at ([world]-307.3613739931855, 65.0, 208.34309291923608)
+[18:49:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17153ms or 343 ticks behind
+[18:49:54] [Server thread/WARN]: CzarekMC moved too quickly! 0.6506080886996983,0.017908738350044473,13.564711021496578
+[18:49:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10860ms or 217 ticks behind
+[18:50:03] [Async Chat Thread - #1/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 571,046600ms. Summary: Getting prefix for MALYMATI2007
+[18:50:03] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> nie lataj![m
+[18:50:50] [Server thread/INFO]: MALYMATI2007 issued server command: /invsee CzarekMC
+[18:51:02] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> o[m
+[18:51:02] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[18:51:16] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[18:51:26] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> a sok jagodowy nie powinien dawaæ jeszcze zwiêkszony skok[m
+[18:51:41] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> to by by³ tki do uciekania[m
+[18:51:51] [Server thread/INFO]: CzarekMC has made the advancement [Diamonds!]
+[18:51:57] [Server thread/INFO]: CzarekMC has made the advancement [Acquire Hardware]
+[18:52:07] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> tylko tekstur tego nie wide[m
+[18:52:23] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> wiem, jeszcze nie da³em texture packa na serwer[m
+[18:52:33] [Server thread/INFO]: CzarekMC issued server command: /gamemode survival
+[18:53:06] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> mo¿e bez szcZêœcia[m
+[18:53:14] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> na kilofie[m
+[18:53:37] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> daj fajerki[m
+[18:53:57] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> dasz czyste fajerki[m
+[18:54:03] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> nie mam[m
+[18:54:19] [Server thread/WARN]: CzarekMC moved too quickly! 9.934874830738067,12.853790455726653,9.126635171114799
+[18:54:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5033ms or 100 ticks behind
+[18:54:51] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> zrób kolczugê[m
+[18:55:19] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> stal[m
+[18:56:14] [Server thread/INFO]: MALYMATI2007 issued server command: /tp CzarekMC MALYMATI2007
+[18:56:18] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> znacznik[m
+[18:56:37] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> ?[m
+[18:56:41] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> OOX[m
+[18:56:48] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> OXO[m
+[18:56:54] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> XOO[m
+[18:57:01] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> O to puste x to item[m
+[18:57:05] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> zrób znacznik[m
+[18:57:31] [Async Chat Thread - #1/INFO]: [m<[0;31;22mCzarekMC[m> o[m
+[18:57:38] [Async Chat Thread - #1/INFO]: [m<[0;31;22mMALYMATI2007[m> i czk jeszcze[m
+[18:57:48] [Server thread/INFO]: CzarekMC has made the advancement [Monster Hunter]
+[18:58:33] [Server thread/INFO]: MALYMATI2007 has made the advancement [Getting an Upgrade]
+[18:58:39] [Server thread/INFO]: CzarekMC issued server command: /gm creative
+[18:58:43] [Async Chat Thread - #2/INFO]: [m<[0;31;22mMALYMATI2007[m> po³¹cz to[m
+[18:58:53] [Server thread/WARN]: CzarekMC moved too quickly! -3.365966643535046,1.252203340253729,9.492498780563068
+[18:59:17] [Async Chat Thread - #2/INFO]: [m<[0;31;22mCzarekMC[m> ooo[m
+[18:59:35] [Async Chat Thread - #2/INFO]: [m<[0;31;22mCzarekMC[m> koks[m
+[19:00:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7917ms or 158 ticks behind
+[19:01:24] [Async Chat Thread - #3/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 45,538700ms. Summary: Getting suffix for MALYMATI2007
+[19:01:24] [Async Chat Thread - #3/INFO]: [m<[0;31;22mMALYMATI2007[m> otwórz ksiêgê[m
+[19:01:25] [Async Chat Thread - #3/INFO]: [m<[0;31;22mCzarekMC[m> dodas krfting niewidzialnych ramek[m
+[19:02:02] [Async Chat Thread - #3/INFO]: [m<[0;31;22mMALYMATI2007[m> ok, czk[m
+[19:02:47] [Async Chat Thread - #3/INFO]: [m<[0;31;22mCzarekMC[m> mam twoj¹ star¹ g³owe[m
+[19:04:15] [Async Chat Thread - #4/INFO]: [m<[0;31;22mMALYMATI2007[m> jak ? XD[m
+[19:04:20] [Async Chat Thread - #4/INFO]: [m<[0;31;22mCzarekMC[m> elf z cebul¹[m
+[19:04:34] [Async Chat Thread - #4/INFO]: [m<[0;31;22mMALYMATI2007[m> aaa, a ja mam jeszcze starsz¹[m
+[19:04:48] [Async Chat Thread - #4/INFO]: [m<[0;31;22mCzarekMC[m> o[m
+[19:04:56] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[19:05:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6348ms or 126 ticks behind
+[19:05:57] [Server thread/INFO]: MALYMATI2007 issued server command: /cc
+[19:05:57] [Server thread/WARN]: CzarekMC moved too quickly! 9.569226975858953,2.102069903854428,3.9766011568114266
+[19:06:00] [Server thread/INFO]: CzarekMC issued server command: /time set dy
+[19:06:05] [Server thread/INFO]: CzarekMC issued server command: /time set day
+[19:06:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15648ms or 312 ticks behind
+[19:06:32] [Async Chat Thread - #5/INFO]: [m<[0;31;22mCzarekMC[m> ej u¿yj axelotla[m
+[19:06:34] [Async Chat Thread - #5/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 69,356200ms. Summary: Getting prefix for MALYMATI2007
+[19:06:59] [Async Chat Thread - #5/INFO]: [m<[0;31;22mMALYMATI2007[m> gdzie on ?[m
+[19:07:14] [Async Chat Thread - #5/INFO]: [m<[0;31;22mCzarekMC[m> tam by³ zapisany niebieski axolotl[m
+[19:08:22] [Server thread/INFO]: CzarekMC lost connection: Disconnected
+[19:08:28] [Server thread/INFO]: CzarekMC left the game
+[19:08:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5964ms or 119 ticks behind
+[19:09:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
+[19:09:43] [Server thread/INFO]: MALYMATI2007 lost connection: Disconnected
+[19:09:46] [Server thread/INFO]: MALYMATI2007 left the game
+[19:10:45] [Server thread/INFO]: Stopping the server
+[19:10:45] [Server thread/INFO]: Stopping server
+[19:10:47] [Server thread/INFO]: [QuickShop] Disabling QuickShop v5.1.0.2
+[19:11:12] [Server thread/INFO]: [QuickShop] QuickShop is finishing remaining work, this may need a while...
+[19:11:25] [Server thread/INFO]: [QuickShop] Please wait for the data to flush its data...
+[19:11:36] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v2.9.0
+[19:11:37] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v1.7.1.3
+[19:11:52] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:11:53] [Spigot Watchdog Thread/ERROR]: The server has stopped responding! This is (probably) not a Spigot bug.
+[19:11:53] [Spigot Watchdog Thread/ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
+[19:11:53] [Spigot Watchdog Thread/ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+[19:11:53] [Spigot Watchdog Thread/ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
+[19:11:53] [Server thread/INFO]: [CustomCrafting] Saving Cauldrons
+[19:11:53] [Spigot Watchdog Thread/ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+[19:11:53] [Spigot Watchdog Thread/ERROR]: If you are unsure or still think this is a Spigot bug, please report to https://www.spigotmc.org/
+[19:11:53] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[19:11:53] [Spigot Watchdog Thread/ERROR]: Spigot version: 3284-Spigot-3892929-0ebef35 (MC: 1.17.1)
+[19:11:53] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:11:53] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[19:11:55] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:11:55] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:11:55] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v1.8.0.0
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Class.isAssignableFrom(Native Method)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.java.JavaPluginLoader.removeClass(JavaPluginLoader.java:222)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:379)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.disablePlugins(CraftServer.java:454)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.stop(MinecraftServer.java:917)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer.stop(DedicatedServer.java:733)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1094)
+[19:11:55] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:305)
+[19:11:56] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer$$Lambda$3800/0x00000008013af5f0.run(Unknown Source)
+[19:11:56] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:11:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:11:56] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[19:14:03] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
+[19:14:04] [Server thread/INFO]: [Essentials_WarpGUI] Disabling Essentials_WarpGUI v2.4
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.Reference.processPendingReferences(Reference.java:243)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Attach Listener
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Notification Thread
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 12 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Common-Cleaner
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 13 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Worker-Bootstrap-1
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer hack thread
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.sleep(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.SystemUtils$6.run(SourceFile:714)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Object.java:320)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.run(Timer.java:506)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.introspect.AnnotatedMethod.getType(AnnotatedMethod.java:76)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.<init>(JsonValueSerializer.java:101)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.BasicSerializerFactory.createKeySerializer(BasicSerializerFactory.java:247)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.SerializerProvider.findKeySerializer(SerializerProvider.java:903)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.SerializerProvider.findKeySerializer(SerializerProvider.java:914)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.impl.PropertySerializerMap.findAndAddKeySerializer(PropertySerializerMap.java:144)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.std.StdKeySerializers$Dynamic._findAndAddDynamic(StdKeySerializers.java:248)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.std.StdKeySerializers$Dynamic.serialize(StdKeySerializers.java:226)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:797)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:3160)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.core.base.GeneratorBase.writeObject(GeneratorBase.java:389)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.core.JsonGenerator.writeObjectField(JsonGenerator.java:2385)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.customcrafting.data.CCPlayerData.writeToJson(CCPlayerData.java:99)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.util.entity.PlayerStore$Serializer.serialize(PlayerStore.java:101)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.util.entity.PlayerStore$Serializer.serialize(PlayerStore.java:92)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1518)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ObjectWriter._writeValueAndClose(ObjectWriter.java:1219)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.libraries.com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1044)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.util.entity.PlayerStore.save(PlayerStore.java:78)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.util.entity.PlayerUtils.lambda$saveStores$1(PlayerUtils.java:88)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.util.entity.PlayerUtils$$Lambda$7399/0x0000000801f45c80.accept(Unknown Source)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.HashMap.forEach(HashMap.java:1425)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.util.entity.PlayerUtils.saveStores(PlayerUtils.java:88)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.wolfyscript.utilities.main.WUPlugin.onDisable(WUPlugin.java:213)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.disablePlugins(CraftServer.java:454)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.stop(MinecraftServer.java:917)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer.stop(DedicatedServer.java:733)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1094)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:305)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer$$Lambda$3800/0x00000008013af5f0.run(Unknown Source)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: TerminalConsoleWriter
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:31)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Server console handler
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: true | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.fusesource.jansi.internal.Kernel32.ReadConsoleInputW(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.fusesource.jansi.internal.Kernel32.readConsoleInputHelper(Kernel32.java:761)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.fusesource.jansi.internal.Kernel32.readConsoleKeyInput(Kernel32.java:794)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.WindowsTerminal.readConsoleInput(WindowsTerminal.java:215)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.WindowsTerminal.access$000(WindowsTerminal.java:55)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.WindowsTerminal$1.read(WindowsTerminal.java:157)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:130)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Watchdog Thread
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 33 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.management@16.0.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.management@16.0.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.management@16.0.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//org.spigotmc.WatchdogThread.run(WatchdogThread.java:90)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 34 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.mainLoop(Timer.java:553)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.run(Timer.java:506)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: ObjectCleanerThread
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 35 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:353)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:178)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-3-worker-23
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3127)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.AbstractFileWatcher.runEventProcessingLoop(AbstractFileWatcher.java:128)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher.lambda$new$0(FileWatcher.java:60)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher$$Lambda$4930/0x0000000801900260.run(Unknown Source)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: WorldEdit Session Manager
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 40 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.mainLoop(Timer.java:553)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.run(Timer.java:506)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 51 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: FileSystemWatchService
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 55 | Suspended: false | Native: true | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1055)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: MVStore background writer nio:C:/Users/Wojtek/Desktop/Harnasiowa Dolina/Survival/plugins/LuckPerms/luckperms-h2.mv.db
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 58 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-0
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 60 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.mainLoop(Timer.java:553)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.run(Timer.java:506)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 62 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 84 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-12-thread-1
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 85 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-13-thread-1
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 86 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 88 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: mysql-cj-abandoned-connection-cleanup
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 89 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:80)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: WorldGuard Region I/O
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 91 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Object.wait(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.mainLoop(Timer.java:553)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.TimerThread.run(Timer.java:506)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 94 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 98 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 99 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: rollbar-buffered_sender
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 106 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 202 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:353)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:178)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 308 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:353)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:178)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 309 | Suspended: false | Native: false | State: RUNNABLE
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:353)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:178)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Worker-Main-46
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 322 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: Worker-Main-47
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 323 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:293)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1624)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: ForkJoinPool.commonPool-worker-7
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 481 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-3-worker-61
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 482 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-145
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 485 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-146
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 486 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-4-worker-5
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 488 | Suspended: false | Native: false | State: WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-147
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 491 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-148
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 495 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Spigot Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-149
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	PID: 496 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: 		java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[19:14:05] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[19:14:05] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[19:14:06] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.19.3-dev+5-5f98d3f
+[19:14:06] [Server thread/INFO]: [BeastWithdraw] Disabling BeastWithdraw v2.9.8
+[19:14:06] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.3-dev+5-5f98d3f
+[19:14:06] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.3-dev+5-5f98d3f
+[19:14:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[19:14:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.7+9f3e795
+[19:14:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:14:16] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:14:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.10
+[19:14:16] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[19:14:16] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:14:17] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:14:22] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:14:22] [Server thread/INFO]: Saving players
+[19:14:22] [Server thread/INFO]: Saving worlds
+[19:14:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:14:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:14:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:14:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:14:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
